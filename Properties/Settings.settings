@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="com.nmtinstaller.csi.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pch-a110</Value>
+    </Setting>
+    <Setting Name="Username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ftpuser</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1234</Value>
+    </Setting>
+    <Setting Name="FirstRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="InstallPrepareScriptURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://54.75.246.28/~csi/csi-downloads/installprepare.cgi</Value>
+    </Setting>
+    <Setting Name="FileUploadRetries553" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="CommandsScriptURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://54.75.246.28/~csi/csi-downloads/commands.zip</Value>
+    </Setting>
+    <Setting Name="AppInitLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Apps/AppInit/appinit.cgi</Value>
+    </Setting>
+    <Setting Name="CSIUpdateVersionURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://54.75.246.28/~csi/csi-downloads/version</Value>
+    </Setting>
+    <Setting Name="CSIUpdateArchiveURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://54.75.246.28/~csi/csi-downloads/update.zip</Value>
+    </Setting>
+    <Setting Name="CSIUpdateChangelogURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://54.75.246.28/~csi/csi-downloads/changelog</Value>
+    </Setting>
+    <Setting Name="AppInitScriptURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://54.75.246.28/~csi/csi-downloads/appinit.cgi</Value>
+    </Setting>
+    <Setting Name="UILanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Select</Value>
+    </Setting>
+    <Setting Name="ApplicationSuggestionDuration" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="HardwareType" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HardwareName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InstallPrepareScript2URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/cptjhmiller/CSI/master/csi-downloads/installprepare.cgi</Value>
+    </Setting>
+    <Setting Name="FTPSubFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="WebserverSubFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CSIUpdate2VersionURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/cptjhmiller/CSI/master/csi-downloads/version</Value>
+    </Setting>
+    <Setting Name="AppInitScript2URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/cptjhmiller/CSI/master/csi-downloads/appinit.cgi</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

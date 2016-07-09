@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="flowScreenshots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 401</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Name" xml:space="preserve">
+    <value>lblAuthor</value>
+  </data>
+  <data name="&gt;&gt;tabCustomMenus.Name" xml:space="preserve">
+    <value>tabCustomMenus</value>
+  </data>
+  <data name="tabApplications.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Name" xml:space="preserve">
+    <value>tbDescription</value>
+  </data>
+  <data name="&gt;&gt;lblForumTopic.Name" xml:space="preserve">
+    <value>lblForumTopic</value>
+  </data>
+  <data name="tabWebservices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblWebInterfaceUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="cbxThemeFormat.Items" xml:space="preserve">
+    <value>High Definition</value>
+  </data>
+  <data name="&gt;&gt;tabInstalled.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="&gt;&gt;lvSelectItem.Parent" xml:space="preserve">
+    <value>pnlTabContent</value>
+  </data>
+  <data name="&gt;&gt;cbxThemeFormat.Name" xml:space="preserve">
+    <value>cbxThemeFormat</value>
+  </data>
+  <data name="&gt;&gt;lvSelectItem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabWaitImages.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lblHomepageStatic.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="&gt;&gt;tabThemes.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="&gt;&gt;tbWebserviceName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingScreenshots.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbChangelog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 101</value>
+  </data>
+  <data name="tbMaintainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;tabWaitImages.Name" xml:space="preserve">
+    <value>tabWaitImages</value>
+  </data>
+  <data name="cbxStartAppOnBoot.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="flowScreenshots.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="&gt;&gt;tabInstalled.Name" xml:space="preserve">
+    <value>tabInstalled</value>
+  </data>
+  <data name="&gt;&gt;cbxThemeFormat.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="lblWebInterfaceUrl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <data name="lblInstalled.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cbxStartAppOnBoot.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;lblSelectApplication.Name" xml:space="preserve">
+    <value>lblSelectApplication</value>
+  </data>
+  <data name="tabCustomMenus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <data name="tbHomepageURL.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;llWebbrowserInterface.Name" xml:space="preserve">
+    <value>llWebbrowserInterface</value>
+  </data>
+  <data name="&gt;&gt;lblInstalled.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="tbItemType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblWebInterfaceUrl.Name" xml:space="preserve">
+    <value>lblWebInterfaceUrl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>com.nmtinstaller.csi.Panels.BasePanel, NMT Community Software Installer, Version=2.6.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabSelectCategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbAdditionalUsageInstrictions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 127</value>
+  </data>
+  <data name="&gt;&gt;tabApplications.Name" xml:space="preserve">
+    <value>tabApplications</value>
+  </data>
+  <data name="lblChangelog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="&gt;&gt;lblGayaInterfaceName.Parent" xml:space="preserve">
+    <value>gbxUsageInstructions</value>
+  </data>
+  <data name="&gt;&gt;tbHomepageURL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHomepageURL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbItemType.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;lblChangelog.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="&gt;&gt;pnlActionButtons.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabApplications.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbChangelog.Name" xml:space="preserve">
+    <value>tbChangelog</value>
+  </data>
+  <data name="&gt;&gt;lblForumTopic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblItemType.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbAdditionalUsageInstrictions.Name" xml:space="preserve">
+    <value>tbAdditionalUsageInstrictions</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>pnlSelectApplication</value>
+  </data>
+  <data name="&gt;&gt;tbItemType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbLoadingScreenshots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 24</value>
+  </data>
+  <data name="&gt;&gt;tabUpdates.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="tbChangelog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblWebInterfaceUrl.Text" xml:space="preserve">
+    <value>Webbrowser interface</value>
+  </data>
+  <data name="tabApplications.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;flowScreenshots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbWebserviceName.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lblGayaInterfaceName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnStartApplication.Parent" xml:space="preserve">
+    <value>pnlActionButtons</value>
+  </data>
+  <data name="&gt;&gt;lblSelectApplication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabInstalled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="pnlItemDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="ilIcons.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACC
+        UQAAAk1TRnQBSQFMAgEBCQEAAYwBAAGUAQABFgEAARYBAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFY
+        AwABQgMAAQEBAAEgBQABwAFaIgADAQECAwQEBQEHAwYBCAMHAQoDCQEMAwoBDQMKAQ0DCgENAwcBCgMG
+        AQgDBQEHAwQBBQMCAQMDAAEB/wAhAAMDAQQDCgEOAxUBHQMcASgDIwEzAzcBWwNKAY0CUQFQAZ8CUQFQ
+        AZ8DSwGOAzgBXQMjATQDHQEqAxgBIQMNARIDBAEGAwABAf8AHAABAQMFAQcDFAEcAy0BRgJMAUsBkAJh
+        AV4B2gF6AW0BUgH3AYIBbwFWAfwBkwF/AX0B/gGRAn8B/gGCAW8BVwH8AXoBbQFSAfcCXwFaAdsDTAGT
+        AzEBTQMZASMDCAELAwEBAv8AHQADAgEDAxQBGwJRAU8BnAF9AW0BUgH3AcQBrAGUAf8BxgG8Aa4B/wHH
+        AcMBvwH/A8kB/wPJAf8BxwHFAcMB/wHCAboBrwH/AcEBqgGTAf8BegFtAVIB9wNQAZ4DFgEeAwQBBQMA
+        AQH/AB0AAwoBDgJPAU4BlwF7AWsBXAH4Ac4BuQGgAf8B1gHKAb0B/wHPAb8BrAH/AdQB0gHPAf8D1QH/
+        A9UB/wPVAf8D0gH/As4BzQH/AckBwAG2Af8BgwJqAfkDTgGYAwsBD/8AHQADBAEGA0MBeAF8AWkBXAH4
+        AdIBvAGfAf8B1AG5AZoB/wHdAbUBhgH/AdQBvQGjAf8D2gH/A9sB/wPaAf8D2AH/A9cB/wPWAf8D0gH/
+        Ac4BxQG5Af8BfwFtAWEB9wNDAXgDBAEG/wAZAAMbASYCXgFcAc4B1wGvAWUB/wHRAcgBvgH/AdoBuQGR
+        Af8B4wG5AYYB/wHcAccBrQH/AdsBzwG/Af8B2AHHAbMB/wHdAdgB0gH/AdsB2gHYAf8D2QH/A9gB/wPX
+        Af8C0wHSAf8BzAG6AaUB/wJeAVwBzgMbASb/ABkAAkABPwFuAdUBmAFBAf8B2AG7AZMB/wHWAc8BxQH/
+        AdsBuAGJAf8B3wG2AYEB/wHVAbUBiwH/AdsBtgGEAf8B4QG3AYEB/wHZAbUBhwH/AdUByQG4Af8D2QH/
+        A9kB/wPZAf8D1wH/AdMB0AHNAf8BwwGXAVcB/wJAAT8Bbv8AGQADVgG2AeABrAFSAf8B2gG6AY0B/wHY
+        AcoBtgH/AdEBsAGDAf8ByAG4AaMB/wHJAcIBuAH/AdsBtQGAAf8B5AG5AWQB/wHYAbQBgwH/AdEBxwG4
+        Af8D2AH/A9gB/wPYAf8D2AH/AdYB1QHTAf8BzQGuAYsB/wNWAbb/ABkAAmEBXQHiAeUBtwFXAf8B2wG0
+        AWAB/wHJAbUBlwH/AcIBvAG0Af8DzQH/Ac4ByAG+Af8B2wGwAVUB/wHfAbYBXgH/AdYBwQGfAf8B1QHJ
+        AbYB/wLbAdoB/wPbAf8D2gH/A9oB/wHYAdYB0wH/AdIBtgGKAf8CYQFdAeL/ABkAAmABWQHrAeoBwgGB
+        Af8B4AHDAZMB/wHSAcwBwgH/A9kB/wPfAf8B1AHMAb4B/wHcAb0BiwH/AeMBwwGQAf8B5QHEAZAB/wHe
+        AcEBkwH/AeYB4gHcAf8B4QHZAc0B/wHhAd0B1AH/A+gB/wHjAd0B1AH/Ad8BwQGSAf8CYAFZAev/ABkA
+        AmABXAHUAekBwwGIAf8B4AHOAa8B/wPiAf8D6AH/A+YB/wHbAdgB0gH/AdcB1gHUAf8B3AHRAb0B/wHv
+        AdMBoQH/Ae8B1AGiAf8B6wHQAZ8B/wHrAdABoAH/AekB0AGlAf8B5wHRAagB/wHqAc8BnwH/AekBxAGI
+        Af8CYAFcAdT/ABkAAlIBUAGkAdsBtQGAAf8B3QHUAcUB/wPlAf8D6QH/A+kB/wPnAf8D4wH/Ad4B0QG3
+        Af8B7wHVAaQB/wHxAdcBpQH/AfEB2AGlAf8B8QHXAaUB/wHxAdcBpAH/AfIB2AGlAf8B8gHYAaQB/wHn
+        Ab0BgAH/AlIBUAGk/wAZAAMxAU8BawFkAVkB9QHlAeIB3QH/A+sB/wPrAf8D6wH/A+sB/wPnAf8B2wHX
+        Ac4B/wHdAc8BtAH/Ad8B0QGxAf8B4QHRAbEB/wHkAdQBtAH/Ae8B2AGpAf8B9AHcAagB/wH0AdoBpwH/
+        AW0BZgFZAfUDMQFP/wAZAAMSARkCWAFWAbwB3gHOAbcB/wHuAu0B/wPuAf8D7QH/A+0B/wPrAf8C5gHn
+        Af8D4QH/At8B4AH/AeAC3wH/AeIB2gHJAf8B8AHbAaoB/wH2AeABrQH/AfAB0gGaAf8CWAFWAbsDEgEZ
+        /wAZAAMBAQIDMAFLA2EB4gHjAdkBxQH/Ae4B7QHrAf8D7wH/A+8B/wHvAu4B/wPuAf8D7gH/A+4B/wHt
+        AewB6wH/AeoB3wHDAf8B9AHgAa4B/wH1Ad0BqwH/A2EB4QMvAUoDAQEC/wAhAAM4AVwDZQHlAeQB1wG8
+        Af8B7QHqAeQB/wHtAeoB4QH/AeoB5QHYAf8B8QLwAf8B7AHqAeMB/wHtAeoB4gH/AewB5QHTAf8B8AHg
+        AbUB/wH0Ad4BrQH/A2UB5QM4AVz/ACkAAwQBBgM1AVUDXQHXAX8BewFyAfgB6wHZAbEB/wHrAdwBtAH/
+        AewB5QHRAf8B6wHeAbYB/wHuAd4BtQH/Ae8B3AGxAf8BhAF8AXEB+ANdAdcDNQFVAwQBBv8AMQADFgEf
+        A0IBdQNXAbgDXwHjAYMBegFtAfcBhAF6AW0B9wNfAeMDVwG4A0IBdQMWAR//AD0AAwIBAwMRARcDIQEw
+        AycBOwMnATsDIQEwAxEBFwMCAQP/AP8A/wD3AAMBAQIDBAQFAQcDBgEIAwcBCgMJAQwDCgENAwoBDQMK
+        AQ0DBwEKAwYBCAMFAQcDBAEFAwIBAwMAAQF0AAMBAQIDBAQFAQcDBgEIAwcBCgMJAQwDCgENAwoBDQMK
+        AQ0DBwEKAwYBCAMFAQcDBAEFAwIBAwMAAQFwAAMDAQQDCgEOAxUBHQMcASgDIwEzAzcBWwNKAY0DUQGf
+        A1EBnwNLAY4DOAFdAyMBNAMdASoDGAEhAw0BEgMEAQYDAAEBbAADAwEEAwoBDgMVAR0DHAEoAyMBMwM3
+        AVsDSgGNAVABUQFQAZ8BUAFRAVABnwNLAY4DOAFdAyMBNAMdASoDGAEhAw0BEgMEAQYDAAEBDwABAQME
+        AQUDCAELAwoBDQMKAQ0DCgENAwoBDQMKAQ0DCgENAwoBDQMKAQ0DCgENAwoBDQMKAQ0DCgENAwoBDQMJ
+        AQwDBQEHAwEBAhMAAQEDBQEHAxQBHAMtAUYDTAGQA2EB2gNxAfcBgAF9AX8B/AGaAZABlgH+AZ4BkAGZ
+        Af4BiAF8AYUB/AF3AXEBdwH3A2EB2gNMAZMDMQFNAxkBIwMIAQsDAQECDAADAQECAwUBBwMJBAwBEAMN
+        AREDDQERAw0BEQMNAREDDQERAw0BEQMNAREDDQERAw0BEQMNAREDDQERAw0BEQMMARADCQEMAwUBBwMB
+        AQIPAAEBAwUBBwMUARwDLQFGAUsCTAGQAV4CYQHaAVEBcQFtAfcBLQGFAXMB/AFUAZ4BgQH+AVQBngGB
+        Af4BLQGFAXMB/AFRAXEBbQH3AV4CYQHaA0wBkwMxAU0DGQEjAwgBCwMBAQIMAAMEAQUDFgEfAygBPQMw
+        AUwDMQFNAzEBTQMxAU0DMQFNAzEBTQMxAU0DMQFNAzEBTQMxAU0DMQFNAzEBTQMxAU0DLAFEAxwBKAMJ
+        AQwUAAMCAQMDFAEbA1EBnAN0AfcBxgHEAcUB/wHIAcUByAH/AcIBvAHBAf8BwgG4Ab4B/wHJAbgBwwH/
+        AdIBuwHLAf8B3QHEAdcB/wHVAcQB0QH/AXoBdAF3AfcDUAGeAxYBHgMEAQUDAAEBCwABAQMGAQgDEgEY
+        Ax0BKQMjATQDJgE4AyYBOAMmATgDJgE4AyYBOAMmATgDJgE4AyYBOAMmATgDJgE4AyYBOAMmATgDIwE0
+        Ax0BKQMSARgDBgEIAwABAQwAAwIBAwMUARsBTwJRAZwBUQF0AW0B9wE3Ac8BsAH/ATMBzwGwAf8BJgG/
+        AZwB/wEgAbkBkwH/ASABuQGSAf8BJgG/AZsB/wEzAc4BrgH/ATcBzwGwAf8BUQF0AW0B9wNQAZ4DFgEe
+        AwQBBQMAAQEMAAMIAQsDRgF+A1gBvANbAcYDWQHHA1kBxwNZAccDWQHHA1kBxwNZAccDWQHHA1kBxwNZ
+        AccDWQHHA1kBxwNZAccDWgHAA04BmAMdASkUAAMKAQ4DTwGXA3gB+AHHAcYByAH/AsEBwwH/Ar8BwgH/
+        Ab0BvAHBAf8BvgG6AcAB/wHFAboBxAH/AdABvAHNAf8B0wG/AdEB/wHOAcABzQH/AdABxgHOAf8BgwGC
+        AYMB+QNOAZgDCwEPDAADAQECAw0BEQNUAa4CYQFYAeYBZAFiAVwB5wJfAVcB6AJfAVcB6AJfAVcB6AJf
+        AVcB6AJfAVcB6AJfAVcB6AJfAVcB6AJfAVcB6AJfAVcB6AJfAVcB6AJfAVcB6AJfAVcB6AFkAWIBXAHn
+        AmEBWAHmA1QBrgMNAREDAQECDAADCgEOAU4CTwGXAUQBeQFxAfgBNQHQAbEB/wEtAb8BnAH/AVUBxAGo
+        Af8BtQHfAdAB/wHTAesB4wH/AdUB7QHkAf8BuAHhAdIB/wFbAcYBqwH/ASwBvgGaAf8BNAHPAbAB/wFE
+        AYMBcQH5A04BmAMLAQ8QAAMKAQ0DYgHpA8gB/wPGAf8DxwH/A8gB/wPIAf8DyAH/A8gB/wLIAckB/wPI
+        Af8DyAH/A8gB/wPIAf8DxwH/A8cB/wPHAf8DhQH7AzABSxAAAwQBBgNDAngCdwH4AcsByQHLAf8BxAHD
+        AcUB/wHAAcIBxQH/Ab4BwQHFAf8BvQHAAcUB/wK9AcUB/wHFAb0BygH/Ac8BvwHTAf8BzAHBAdAB/wHH
+        AcIBywH/AcYBwwHJAf8BzQHJAc0B/wN6AfcDQwF4AwQBBggAAwIBAwMSARgBZAFhAVMB8QG0AUoBJQH/
+        Ab4BXwE+Af8B5AHGAbgB/wHeAboBqgH/Ad4BuwGqAf8B3gG6AaoB/wHeAbsBqgH/Ad4BuwGqAf8B3gG7
+        AaoB/wHeAbsBqgH/AeEBwAGxAf8BywGTAWAB/wHgAb8BrwH/AeQBxgG4Af8BvgFfAT4B/wG1AUsBJQH/
+        AWQBYQFTAfEDEgEYAwIBAwgAAwQBBgNDAXgBPgF4AW4B+AE3AdIBtAH/AT4BwgGiAf8BoQHVAcMB/wHy
+        AfgB9gH/A/0B/wPoAf8D6AH/A/0B/wHzAfgB9wH/AaoB2QHJAf8BRQHDAaQB/wE1AdABsgH/AVEBegFt
+        AfcDQwF4AwQBBgwAAwoBDQNdAfAD1AH/A8EB/wPQAf8DwgH/A9IB/wPCAf8DvQH/A8wB/wPEAf8DxQH/
+        A9EB/wPRAf8DwgH/A7sB/wPMAf8DtQH/AzEBThAAAxsBJgNeAc4BywHIAcoB/wHIAcYByQH/AcQBxQHI
+        Af8BwAHEAcgB/wG+AcQByAH/Ab4BxAHLAf8BwQHEAc4B/wHIAcMB0wH/Ac0BxAHXAf8BxgHDAdAB/wHD
+        AcQBywH/AcMBxAHJAf8CxgHJAf8ByQHIAcoB/wNeAc4DGwEmCAADAwEEAxQBGwFkAWEBUwHxAbcBTAEm
+        Af8BvwFeATwB/wHiAcIBswH/AeEBwAGwAf8B4QHAAbAB/wHiAcABsAH/AeIBwAGwAf8B4gHAAbAB/wHi
+        AcABsAH/AeIBwAGwAf8B4gHBAbEB/wHKAY8BWgH/Ad4BtwGlAf8B4gHCAbMB/wG/AV4BPAH/AbcBTAEm
+        Af8BZAFhAVMB8QMUARsDAwEECAADGwEmAVwCXgHOATYB0QGzAf8BKgG8AZoB/wGpAdgByAH/AfYB+QH4
+        Af8D+wH/A/sB/wPYAf8D2AH/A/sB/wLuAfgB/wHoAeoB9gH/AcMB4wHYAf8BPAHBAaIB/wE2AdABsgH/
+        AVwCXgHOAxsBJgwAAwoBDQNdAfAD2QH/A7oB/wPVAf8DuQH/A9cB/wO3Af8DvwH/A9UB/wO3Af8DugH/
+        A9QB/wPWAf8DuAH/A80B/wPTAf8DuAH/AzEBThAAA0ABbgG8AbkBuwH/Ac8BywHOAf8BygHIAcwB/wHF
+        AccBzAH/AcIBxwHMAf8BwgHLAdEB/wHAAckB0AH/AboBwAHGAf8BvAHAAcgB/wHGAcgB1QH/AcYBygHW
+        Af8BwQHHAc4B/wHCAccBywH/AcUByAHLAf8CygHMAf8BuwG5AbsB/wNAAW4IAAMDAQQDFAEbAWQBYgFT
+        AfEBuAFPAScB/wG4AU8BJwH/AbgBTwEoAf8BuAFQASgB/wG5AVEBKQH/AboBUgEpAf8BugFSASoB/wG7
+        AVMBKgH/AbsBUwEqAf8BuwFTASoB/wG6AVIBKgH/AboBUgEpAf8BuQFQASkB/wG4AVABKAH/AbgBTwEo
+        Af8BuAFPAScB/wFkAWIBUwHxAxQBGwMDAQQIAAE/AkABbgEmAcABngH/ATQBzAGuAf8BhgHJAbQB/wHw
+        AfUB8wH/A/oB/wP6Af8D+gH/A/oB/wP6Af8C7gH3Af8C0gHxAf8C7gH3Af8B8gH2AfUB/wGPAcwBuAH/
+        ATQBygGsAf8BJgHAAZ4B/wE/AkABbgwAAwoBDQNdAfAD2wH/A8EB/wPOAf8DswH/A84B/wO5Af8DvAH/
+        A80B/wOyAf8DswH/A9gB/wPaAf8DuQH/A8MB/wPUAf8DugH/AzEBThAAA1YBtgHKAcYByQH/AdABzAHP
+        Af8CywHPAf8BxgHKAc8B/wHDAcsB0AH/AYwBlQGaAf4DXAHMAzsBYwM7AWMDXAHMAYwBlAGcAf4BwQHK
+        AdIB/wHCAckBzgH/AcUBygHNAf8BygHLAc0B/wHIAcYBxwH/A1YBtggAAwMBBAMUARsBZAFjAVMB8QG6
+        AVIBKgH/AboBUgEqAf8BuwFTASoB/wG8AVQBKwH/Ab0BVgEsAf8BvgFXAS0B/wG+AVkBLgH/Ab8BWQEu
+        Af8BvwFZAS4B/wG/AVkBLgH/Ab4BWAEtAf8BvgFXAS0B/wG9AVUBLAH/AbsBVAErAf8BuwFTASoB/wG6
+        AVIBKgH/AWQBYwFTAfEDFAEbAwMBBAgAA1YBtgEzAdABsgH/ATcBwgGkAf8BwgHeAdUB/wP3Af8D9wH/
+        A/cB/wP2Af8D8QH/AucB7wH/AtEB7wH/Au0B9QH/A/cB/wP3Af8ByQHhAdkB/wE4AcEBogH/ATMB0AGy
+        Af8DVgG2CAADAgEDAxMBGgNkAfEB3AHWAdEB/wHQAcsBxgH/AdMBzgHJAf8BzgHJAcQB/wHUAc8BygH/
+        AdIBzQHIAf8B0AHLAcYB/wHZAdQBzwH/AdQBzgHKAf8B1AHPAcoB/wHbAdUB0AH/AdsB1QHQAf8B0QHM
+        AccB/wHNAccBwwH/AdcB0QHMAf8BvQG3AbIB/wM2AVkDBAEGDAADYQHiAdMB0AHSAf8B0gHQAdMB/wHO
+        Ac8B0wH/AckBzgHSAf8BxQHOAdQB/wNlAfQDIAEuCAADIAEuA2UB9AHCAc0B1AH/AcUBzQHSAf8BygHO
+        AdIB/wHOAc8B0gH/AdEB0AHRAf8DYQHiCAADAwEEAxQBGwFkAWMBUwHxAbwBVQEsAf8BvQFXAS0B/wG+
+        AVkBLgH/Ab8BWwEvAf8BwQFdATAB/wHCAV8BMgH/AcMBYAEzAf8BwwFhATMB/wHEAWIBMwH/AcMBYQEz
+        Af8BwgFgATIB/wHCAV4BMQH/AcABXAEwAf8BvwFaAS8B/wG+AVgBLQH/Ab0BVgEsAf8CZAFTAfEDFAEb
+        AwMBBAgAAV0CYQHiATwB2AG+Af8BPAG6AZwB/wHgAegB5gH/A+QB/wPnAf8D3AH/A7sB/wOiAf8ChgGN
+        Af8C6gHzAf8D9QH/A+oB/wPkAf8B5wHrAekB/wE8AbkBmwH/ATwB2AG+Af8BXQJhAeIIAAMnATsCYQFY
+        AeYBzQGDARoB/wHNAYMBGgH/Ac0BgwEaAf8BzQGDARoB/wHNAYMBGgH/Ac0BgwEaAf8BzQGDARoB/wHN
+        AYMBGgH/Ac0BgwEaAf8BzQGDARoB/wHNAYMBGgH/Ac0BgwEaAf8BzQGDARoB/wHNAYMBGgH/Ac0BgwEa
+        Af8BzQGDARoB/wHNAYMBGgH/AY4BXwEyAfsDQgF2DAADYAHrAdsC2gH/At4B3wH/AdsB3QHfAf8B2AHc
+        Ad8B/wHVAdwB4AH/A2UB9AMwAUsDKQE+AygBPQMvAUoDZQH0AdMB2wHgAf8B1QHbAd8B/wHZAdwB3wH/
+        AdwB3QHfAf8B2wHaAdsB/wNgAesIAAMDAQQDFAEbAmQBUwHxAb8BWQEuAf8BwAFbATAB/wHBAV4BMQH/
+        AcMBYAEzAf8BxAFjATUB/wHGAWUBNgH/AccBgAE3Af8BxwGBATgB/wHHAYEBOAH/AccBgQE4Af8BxgFm
+        ATcB/wHGAWQBNQH/AcQBYgE0Af8BwwFgATMB/wHBAV0BMQH/Ab8BWgEvAf8CZAFTAfEDFAEbAwMBBAgA
+        AVkCYAHrAUEB3QHFAf8BPgG5AZ0B/wHiAeYB5QH/A8cB/wOwAf8DrwH/A80B/wPlAf8DjwH/A/MB/wPz
+        Af8D1gH/A8cB/wHkAuYB/wE+AbcBnAH/AUEB3QHFAf8BWQJgAesIAAMyAVAB2wGeATEB/wHlAa8BNgH/
+        AeQBrgE1Af8B7wHNAZMB/wHkAa4BNQH/Ae8BzQGTAf8B5AGuATUB/wHwAdABmQH/AfMB2wGzAf8B6QG8
+        AVQB/wHvAc0BkwH/Ae4BygGNAf8B5QGxATsB/wHkAa4BNQH/AfIB1gGmAf8B8QHWAaYB/wHmAbQBQwH/
+        AeQBrgE1Af8B5QGxAUIB/wJRAVABnwwAA2AB1AHcAtsB/wPlAf8B4wHkAeUB/wHgAeMB5QH/Ad8B4wHo
+        Af8BkAKRAfsDUAGeAzsBZQM7AWMDUAGeAY8BkAGRAfsB3AHjAecB/wHeAeMB5gH/AeIB5AHmAf8C5QHm
+        Af8B4AHeAd8B/wNgAdQIAAMDAQQDFAEbAmQBUwHxAdcBpgGJAf8B2AGoAYsB/wHZAaoBjAH/AdsBrQGO
+        Af8B3AGvAY8B/wHdAbEBkAH/Ad0BsgGRAf8B3gGzAZIB/wHeAbMBkgH/Ad4BswGRAf8B3QGyAZEB/wHc
+        AbABjwH/AdsBrgGOAf8B2gGsAY0B/wHZAaoBjAH/AdgBpwGKAf8CZAFTAfEDFAEbAwMBBAgAAVwCYAHU
+        AUIB3QHEAf8BPgG9AaMB/wHHAdQB0QH/A+0B/wPxAf8D8QH/A/EB/wPxAf8DjgH/A/EB/wPxAf8D8QH/
+        A+wB/wHFAdMBzwH/AT4BvQGjAf8BQgHdAcQB/wFcAmAB1AgAAzIBUAHiAa4BQgH/AesBvgFIAf8B6wG9
+        AUcB/wH1Ad0BqwH/AesBvQFHAf8B9gHiAbcB/wHrAb0BRwH/AfcB4wG8Af8B8gHVAZgB/wHsAcIBUgH/
+        AfcB5gHDAf8B9wHkAb0B/wHsAcEBTwH/AesBvQFHAf8B9wHkAb4B/wH0Ad0BrQH/Ae0BxwFdAf8B6wG9
+        AUcB/wHrAcIBVwH/AlEBUAGfDAADUgGkA9UB/wPnAf8B5gLnAf8B4wHlAecB/wHhAeYB6QH/AeAB5QHo
+        Af8BZQJnAfEDXgHOA1wBzQFlAmcB8QHcAeQB5wH/Ad8B5QHoAf8B4QHlAegB/wHkAeYB6AH/AucB6QH/
+        AdkB2AHZAf8DUgGkCAADAwEEAxQBGwJkAVMB8QHYAakBiwH/AdoBqwGNAf8B2wGuAY4B/wHdAbEBkAH/
+        Ad0BswGSAf8B3wG1AZMB/wHfAbcBlAH/AeABuAGVAf8B4AG4AZUB/wHgAbgBlQH/Ad8BtgGUAf8B3gG1
+        AZMB/wHdAbIBkQH/AdwBsAGQAf8B2wGtAY4B/wHZAaoBjAH/AmQBUwHxAxQBGwMDAQQIAAFQAlIBpAE8
+        AdYBvQH/AT8ByAGwAf8BnwHAAbcB/wPiAf8D7QH/A+8B/wPvAf8D7wH/A40B/wPvAf8D7wH/A+0B/wPg
+        Af8BmwG/AbUB/wE/AckBsgH/ATwB1gG9Af8BUAJSAaQIAAMyAVAB6AG6AU8B/wHyAdEBZAH/AfIB0AFj
+        Af8B9wHkAbUB/wH1AdsBmwH/AfsB8QHXAf8B9QHcAZ4B/wH6AesByAH/AfkB6wHJAf8B9QHcAZ0B/wH7
+        Ae8B0gH/AfsB7gHOAf8B8gHTAYMB/wHyAdABYwH/AfoB7QHNAf8B9gHfAaMB/wHyAdMBgwH/AfIB0AFj
+        Af8B8QHRAYQB/wJRAVABnwwAAzEBTwNrAfUD6QH/AukB6gH/AecB6AHqAf8B5gHoAeoB/wHmAegB7AH/
+        AucB7AH/AeUB5wHsAf8B4wHpAe0B/wHiAegB7AH/AeEB6AHqAf8B4wHoAeoB/wHlAegB6gH/AugB6gH/
+        A+oB/wNrAfUDMQFPCAADAwEEAxQBGwJkAVMB8QHbAawBjQH/AdwBrwGPAf8B3QGxAZEB/wHfAbQBkgH/
+        AeABtwGVAf8B4QG6AZYB/wHiAbwBlwH/AeMBvQGYAf8B4wG+AZgB/wHjAb0BmAH/AeIBuwGXAf8B4QG5
+        AZYB/wHgAbYBlAH/Ad4BswGSAf8B3QGwAZAB/wHcAa0BjgH/AmQBUwHxAxQBGwMDAQQIAAMxAU8BRQFr
+        AWcB9QFLAdwBxwH/AUYBtQGfAf8BuAHGAcIB/wPfAf8D6AH/A+wB/wPkAf8DjAH/A+wB/wPoAf8D3gH/
+        AbQBxAHAAf8BRQG3AaAB/wFMAd0ByQH/AUUBawFnAfUDMQFPCAADLgFHAW4BaQFZAfUB8QHSAYoB/wHx
+        AdIBiwH/AfIB1AGPAf8B8gHTAY4B/wHyAdQBkQH/AfIB0wGOAf8B8gHUAZAB/wHyAdQBkQH/AfIB0wGN
+        Af8B8gHUAY8B/wHyAdMBjwH/AfEB0gGLAf8B8QHSAYsB/wHyAdQBjwH/AfEB0gGLAf8B8QHSAYsB/wHx
+        AdIBigH/AbYBqwGCAf0CTAFLAY8MAAMSARkDWAG7AeUB4wHkAf8B7AHrAewB/wLrAewB/wLqAewB/wHq
+        AekB7QH/AeoB5QHqAf8B5wHlAeoB/wHlAekB7AH/AeUB6QHsAf8B5QHpAesB/wHmAeoB6wH/AekC6wH/
+        AusB7AH/AecB5gHnAf8DWAG7AxIBGQgAAwIBAwMRARcCZAFhAfEB7wHbAc4B/wHwAdwBzwH/AfEB3gHQ
+        Af8B8QHfAdAB/wHyAeAB0QH/AfIB4gHSAf8B8wHjAdMB/wHzAeMB0wH/AfMB4wHTAf8B8wHjAdMB/wHz
+        AeIB0gH/AfIB4QHSAf8B8gHgAdEB/wHxAd8B0AH/AfAB3QHPAf8B8AHcAc4B/wJkAWEB8QMRARcDAgED
+        CAADEgEZAVYCWAG7AVQB4QHNAf8BPQHOAbYB/wFgAbABoQH/AbwBwgHAAf8D1AH/A98B/wPGAf8DqgH/
+        A98B/wPUAf8BuAHBAb8B/wFYAa8BngH/AT8B0QG5Af8BVAHiAc0B/wFWAlgBuwMSARkIAAMQARUDPAFm
+        AYABcQFtAfcB6AHKAZsB/wHoAcoBmwH/AegBygGbAf8B6AHLAZsB/wHoAcsBmwH/AegBywGbAf8B6QHL
+        AZwB/wHpAcsBnAH/AekBywGcAf8B6QHLAZwB/wHoAcsBmwH/AegBywGbAf8B6AHLAZsB/wHoAcoBmwH/
+        AegBygGbAf8B1QG3AYgB/wNOAZkDHQEpDAADAQECAy8BSgNhAeEB7QLrAf8B8ALuAf8B7wHsAe4B/wHv
+        AesB7gH/Ae0B5gHpAf8B6gHmAekB/wHqAesB7QH/AeoB6wHtAf8B6gHsAe0B/wHrAewB7QH/Ae0C7gH/
+        A+wB/wNhAeEDLwFKAwEBAggAAwEBAgMMARADXQHwAfIB3gHOAf8B/AH4AfQx/wH8AfgB9AH/AfIB3gHO
+        Af8DXQHwAwwBEAMBAQIIAAMBAQIDLwFKAVsCYQHhAV4B5QHUAf8BRAHOAbgB/wFGAa4BmQH/AZoBsQGr
+        Af8BtgG9AbsB/wG+AcABvwH/Ab4BwAG/Af8BtgG9AbsB/wGZAbEBqgH/AUUBrwGaAf8BRQHQAbsB/wFe
+        AeYB1AH/AVsCYQHhAy8BSgMBAQIMAAMKAQ0DXQHwA/QB/wPIAf8D9QH/A8gB/wP1Af8DxAH/A7wB/wPm
+        Af8DyAH/A8wB/wPxAf8D9QH/A8UB/wPNAf8D6AH/A9EB/wMxAU4YAAM4AVwDZQHlAe4B6wHtAf8B9AHv
+        AfEB/wHyAesB7QH/Ae8B5gHpAf8B7QHnAekB/wLtAe4B/wHtAu4B/wPuAf8B8ALvAf8B7QLsAf8DZQHl
+        AzgBXBMAAQEDBQEHAlwBWgHNAcYBsAGdAf8BxgGwAZ0B/wHGAbABnQH/AcYBsAGdAf8BxgGwAZ0B/wHG
+        AbABnQH/AcYBsAGdAf8BxgGwAZ0B/wHGAbABnQH/AcYBsAGdAf8BxgGwAZ0B/wHGAbABnQH/AcYBsAGd
+        Af8BxgGwAZ0B/wHGAbABnQH/AcYBsAGdAf8CXAFaAc0DBQEHAwABARAAAzgBXAFeAmUB5QFmAegB1wH/
+        AU0B2gHGAf8BPgHAAakB/wFKAa4BmwH/AVMBqAGXAf8BUwGoAZcB/wFKAa4BmwH/AT4BwAGpAf8BTgHc
+        AccB/wFmAegB1wH/AV4CZQHlAzgBXBQAAwoBDQNdAfAD+AH/A9EB/wP5Af8DwwH/A/kB/wPCAf8D2QH/
+        A+4B/wO3Af8DugH/A/UB/wP5Af8DvAH/A78B/wPqAf8C0wHUAf8DMQFOGAADBAEGAzUBVQNdAdcBgQJ/
+        AfgB8QHrAewB/wHyAeoB6wH/AfEB6gHrAf8B8QHuAe8B/wHxAvAB/wHuAu0B/wGBAn8B+ANdAdcDNQFV
+        AwQBBhQAAwEBAgMZASMDJAE2AyUBNwMmATgDJgE4AyYBOAMmATgDJgE4AyYBOAMmATgDJgE4AyYBOAMm
+        ATgDJgE4AyYBOAMlATcDJAE2AxkBIwMBAQIUAAMEAQYBNAI1AVUBWQJdAdcBXAF/AXwB+AGCAecB1wH/
+        AVoB4QHPAf8BUwHeAcwB/wFTAd4BzAH/AVoB4QHPAf8BggHnAdcB/wFcAX8BfAH4AVkCXQHXATQCNQFV
+        AwQBBhQAAwcBCQNdAfAD+wH/A9AB/wPgAf8DugH/A90B/wPIAf8DvwH/A+YB/wPHAf8DygH/A/gB/wP8
+        Af8DygH/A8QB/wPwAf8D1gH/Ay8BSSAAAxYBHwNCAXUDVwG4A18B4wOCAfcDggH3A18B4wNXAbgDQgF1
+        AxYBH4gAAxYBHwNCAXUBVgJXAbgBWwJfAeMBZgGCAX0B9wFmAYIBfQH3AVsCXwHjAVYCVwG4A0IBdQMW
+        AR8cAAMCAQMDYgHvA/4B/wP+Af8D/gH/A/4B/wP+Af8D/gH/A/4B/wP+Af8D/gH/A/4B/wP+Af8D/gH/
+        A/4B/wP+Af8D/gH/A9kB/wMsAUMkAAMCAQMDEQEXAyEBMAMnATsDJwE7AyEBMAMRARcDAgEDkAADAgED
+        AxEBFwMhATADJwE7AycBOwMhATADEQEXAwIBAyQAA1QBrwNiAe8DYgHvA2IB7wNiAe8DYgHvA2IB7wNi
+        Ae8DYgHvA2IB7wNiAe8DYgHvA2IB7wNiAe8DYgHvA2IB7wNcAc8DHQEq/wD/ANkAAQEDBAEGAwwBEAMT
+        BBoBJQMmATgDLQFFAy4BSAMtAUYDKQE/Ax4BKwMVAR0DDgETAwYBCAMBAQIfAAEBAwQBBgMMARADEwQa
+        ASUDJgE4Ay0BRQMuAUgDLQFGAykBPwMeASsDFQEdAw4BEwMGAQgDAQECIAADAQECAwQEBQEHAwYBCAMH
+        AQoDCQEMAwoBDQMKAQ0DCgENAwcBCgMGAQgDBQEHAwQBBQMCAQMDAAEBHAADAQECAwQEBQEHAwYBCAMH
+        AQoDCQEMAwoBDQMKAQ0DCgENAwcBCgMGAQgDBQEHAwQBBQMCAQMDAAEBGAADAQECAxEBFwMpAT8BSQJK
+        AYkDWwHIAVgCXwHjAUwBZAFrAfMBSAFiAWgB9gFSAWUBZgH0AVkCYAHrAVgCXAHRAVACUgGjAzIBUAMY
+        ASIDBQEHHAADAQECAxEBFwMpAT8DSQGJA1sByAFYAV8BXQHjAUwBYAFfAfMBSAJiAfYBUgJlAfQBWQJg
+        AesBWAFcAVgB0QNQAaMDMgFQAxgBIgMFAQccAAMDAQQDCgEOAxUBHQMcASgDIwEzAzcBWwNKAY0BUAFR
+        AVABnwFQAVEBUAGfA0sBjgM4AV0DIwE0Ax0BKgMYASEDDQESAwQBBgMAAQEUAAMDAQQDCgEOAxUBHQMc
+        ASgDIwEzAzcBWwNKAY0CUQFQAZ8CUQFQAZ8DSwGOAzgBXQMjATQDHQEqAxgBIQMNARIDBAEGAwABARQA
+        AwIBAwMtAUUBWgJcAc0BTQF5AYMB+gEwAc8B6gH/ATEB0gHsAf8BMQHSAewB/wEwAdEB7AH/ATEB0QHs
+        Af8BMQHSAewB/wEwAdEB6wH/ASsBfgGaAfwBWAJhAeYBPwJAAW4DCgENHAADAgEDAy0BRQFaAVwBWgHN
+        AU0BdAFYAfoBNgHOAaUB/wE4AdMBqQH/ATkB1AGqAf8BOAHUAakB/wE4AdQBqQH/ATkB1AGqAf8BNwHR
+        AacB/wErAXsBagH8AVgBYQFYAeYBPwFAAT8BbgMKAQ0bAAEBAwUBBwMUARwDLQFGAUsCTAGQAV4CYQHa
+        AVEBcQFtAfcBLQGFAXMB/AFUAZ4BgQH+AVQBngGBAf4BLQGFAXMB/AFRAXEBbQH3AV4CYQHaA0wBkwMx
+        AU0DGQEjAwgBCwMBAQITAAEBAwUBBwMUARwDLQFGAkwBSwGQAmEBXgHaAYABbQFRAfcBlQFwATwB/AGs
+        AX8BZgH+AawBfwFmAf4BlQFwATwB/AGAAW0BUQH3AmEBXgHaA0wBkwMxAU0DGQEjAwgBCwMBAQIUAAMh
+        ATABWgJdAcoBKgHFAeQB/wEvAc8B7AH/ASoBxwHoAf8BJQHAAeUB/wEiAbwB5AH/ASEBugHkAf8BIgG7
+        AeQB/wEjAb4B5QH/ASgBxQHoAf8BLgHNAesB/wEtAcwB6QH/AVcCXwHoAzoBYhwAAyEBMAFaAl0BygEt
+        AcABlQH/ATcB0wGnAf8BMgHQAaAB/wEuAc0BmQH/ASwBywGVAf8BLAHKAZQB/wEsAcoBlQH/AS0BzAGX
+        Af8BMQHPAZ4B/wE2AdMBpgH/ATMBywGfAf8BVwJfAegDOgFiHAADAgEDAxQBGwFPAlEBnAFRAXQBbQH3
+        ATcBzwGwAf8BNgHUAbYB/wExAdEBsQH/AS8B0AGuAf8BLwHQAa4B/wExAdEBsQH/ATYB1AG2Af8BNwHP
+        AbAB/wFRAXQBbQH3A1ABngMWAR4DBAEFAwABARQAAwIBAwMUARsCUQFPAZwBgQFtAVIB9wHcAaMBSAH/
+        Ad0BowFFAf8B2wGcAT8B/wHaAZkBOwH/AdoBmQE7Af8B2wGcAT8B/wHdAaMBRQH/AdwBowFIAf8BgQFt
+        AVIB9wNQAZ4DFgEeAwQBBQMAAQEQAAMjATMDWwHIAUABqQGzAf0BKQHGAekB/wEiAbsB5AH/AR4BtAHh
+        Af8BHAGxAeAB/wEbAbEB4AH/ARsBsAHgAf8BGwGwAeAB/wEbAbEB4AH/AR0BswHhAf8BIQG4AeMB/wEn
+        AcIB5wH/AS0BywHpAf8BVwJfAegDOAFcAwQBBRAAAyMBMwNbAcgBQAGoAZoB/QExAc4BnwH/ASwByQGV
+        Af8BOAHLAZcB/wGBAdkBswH/Ab8B7AHYAf8B0AHxAeMB/wE3AckBlAH/ASYBxAGKAf8BKAHGAYwB/wEq
+        AccBkQH/AS8BzQGbAf8BMwHOAaEB/wFXAl8B6AM4AVwDBAEFFAADCgEOAU4CTwGXAUQBeQFxAfgBNwHU
+        AbYB/wExAdEBsQH/AS8B0AGvAf8BLwHQAa8B/wEvAdABrwH/AS8B0AGvAf8BLwHQAa8B/wEvAdABrwH/
+        ATEB0QGxAf8BNwHUAbYB/wFEAYMBcQH5A04BmAMLAQ8YAAMKAQ4CTwFOAZcBfQFuAVwB+AHeAaQBRwH/
+        AdsBnAE+Af8B2gGbATwB/wHaAZoBPAH/AdoBmgE8Af8B2gGaATwB/wHaAZoBPAH/AdoBmgE8Af8B2wGc
+        AT4B/wHeAaQBRwH/AYcBawFYAfkDTgGYAwsBDxAAAwEBAgFXAlkBvwEjAb0B4QH/ASYBwgHmAf8BHgG2
+        AeIB/wEjAbMB4QH/AUsBwgHmAf8BHwGwAd8B/wEaAa4B3wH/ARoBrgHfAf8BGgGuAd8B/wEfAbEB3wH/
+        AVABxAHnAf8BIAGxAd8B/wEdAbMB4QH/ASMBvgHlAf8BKAHFAeYB/wNfAeADIQEwDAADAQECAVcBWQFX
+        Ab8BKAG8AYwB/wEvAcwBmQH/ASkBxgGOAf8BRAHNAZsB/wHGAe0B3AH/AfoB/QH8Cf8BOwHFAZIB/wEl
+        AcMBhwH/ASUBwwGGAf8BJQHDAYcB/wEnAcUBiwH/AS0BygGVAf8BLwHJAZkB/wNfAeADIQEwEAADBAEG
+        A0MBeAE+AXgBbgH4ATkB1gG5Af8BMgHSAbMB/wExAdEBsgH/ATEB0QGyAf8BMQHSAbIB/wExAdEBsgH/
+        ATEB0QGyAf8BMQHSAbIB/wExAdEBsgH/ATEB0gGyAf8BMgHSAbMB/wE5AdYBuQH/AVEBegFtAfcDQwF4
+        AwQBBhAAAwQBBgNDAXgBfAFrAVwB+AHgAagBSAH/AdwBnwE/Af8B3AGfAT8B/wHcAZ8BPwH/AdwBnwE/
+        Af8B3AGfAT8B/wHcAZ8BPwH/AdwBnwE/Af8B3AGeAT8B/wHcAZ8BPwH/AdwBnwE/Af8B4AGoAUgB/wGB
+        AW0BUgH3A0MBeAMEAQYMAAMwAUwBUQFxAYIB9wEkAcAB5gH/AR0BswHhAf8BGQGtAd8B/wEkAa4B3QH/
+        AbAB1wHoAf8BngHYAe8B/wElAbEB4AH/ARkBrAHeAf8BNwG4AeMB/wGuAd4B8gH/AaAB0wHnAf8BGQGq
+        Ad0B/wEYAawB3gH/ARsBsAHgAf8BIgG8AeUB/wEeAbUB3AH/A0wBkwwAAzABTAFRAm0B9wEsAckBlgH/
+        AScBxAGLAf8BNQHGAY8B/wHGAewB2wH/AfwC/QH/AdoB6wHjAf8BYAG3AZoB/wE+AaUBgQH/ASYBuwGC
+        Af8BIwHAAYMB/wEjAcABgwH/ASMBwAGDAf8BIwHBAYQB/wElAcMBiAH/ASsByAGTAf8BIQGyAYAB/wNM
+        AZMQAAMbASYBXAJeAc4BOAHTAbYB/wE0AdQBtgH/ATMB0wG1Af8BPgHWAbkB/wFWAdMBvQH/AUQB1AG6
+        Af8BNwHUAbYB/wEzAdMBtQH/ATMB0wG1Af8BMwHTAbUB/wEzAdMBtQH/ATMB0wG1Af8BNAHUAbYB/wE4
+        AdMBtgH/AVwCXgHOAxsBJhAAAxsBJgJeAVwBzgHfAagBSgH/Ad4BpAFEAf8B3wGlAUcB/wHfAbUBgwH/
+        AdYBswGJAf8B1gGzAYkB/wHgAbUBgQH/AeABtQGBAf8B1gGzAYkB/wHWAbMBiQH/Ad8BtQGDAf8B3wGl
+        AUcB/wHeAaQBRAH/Ad8BqAFKAf8CXgFcAc4DGwEmCAADCAELAVMCVAGsASABuQHiAf8BHQG0AeEB/wEY
+        AaoB3QH/ARcBqAHdAf8BGQGnAdsB/wGMAcUB3wH/AfkB/AH9Af8BxQHnAfUB/wGEAcwB6gH/AdwB8QH5
+        Bf8BTQGyAdQB/wEXAagB3QH/ARcBqAHdAf8BFwGpAd0B/wEbAbAB4AH/ASEBugHkAf8BUwFkAWUB8QMQ
+        ARYEAAMIAQsBUwFUAVMBrAEnAcABiwH/ASYBxAGKAf8BJQHAAYMB/wGRAdoBtwH/AfgB/QH6Af8B1AHn
+        Ad4B/wE5Aa4BgwH/AR8BtgFhAf8BIQG9AWYB/wEiAb4BgAH/ASIBvgGAAf8BIgG+AYAB/wEnAcABgwH/
+        ASMBvwGBAf8BIgG/AYEB/wElAcIBhwH/ASkBxQGQAf8BUwFkAVoB8QMQARYMAAE/AkABbgEmAcABngH/
+        ATgB1wG6Af8BNQHVAbgB/wE1AdUBuAH/AU0B2wHBAf8BTgGIAYAB/wFVAZwBkgH/AVcBxgGzAf8BRQHZ
+        Ab4B/wE5AdYBuQH/ATUB1QG4Af8BNQHVAbgB/wE1AdUBuAH/ATUB1QG4Af8BOAHXAboB/wEmAcABngH/
+        AT8CQAFuEAACQAE/AW4B1QGXAT4B/wHiAasBSgH/AeABqAFGAf8B4gGsAU4B/wGpAZUBYgH/AzsB/wM7
+        Af8BvAGkAYQB/wG8AaQBhAH/AzsB/wM7Af8BqQGVAWIB/wHiAawBTgH/AeABqAFGAf8B4gGrAUoB/wHV
+        AZcBPgH/AkABPwFuCAADHQEpAVsCXgHQAR0BswHgAf8BGAGrAd0B/wEWAaUB2wH/ARUBpAHbAf8BFQGk
+        AdsB/wFHAbIB2QH/AegB8QH2Af8C/gL/AfgB/AH+Bf8B6wHyAfYB/wEjAaQB1AH/ARUBpAHbAf8BFQGk
+        AdsB/wEVAaUB2wH/ARcBqAHcAf8BHAGyAeAB/wFRAXEBggH3AzIBUQQAAx0BKQFbAV4BWwHQASYBwAGH
+        Af8BIgG+AYEB/wEvAcABhQH/AcIB6QHWAf8B9wH6AfkB/wGGAccBpgH/ASEBtwFhAf8BIAG7AWMB/wEg
+        AbsBYwH/ASABuwFjAf8BIAG7AWMB/wEnAb4BgAH/AZMB2gG3Af8BhgHWAa8B/wEjAbwBZAH/ASEBvQFl
+        Af8BJQHCAYcB/wFRAW4BbQH3AzIBUQwAA1YBtgEzAdABsgH/ATgB2AG8Af8BOAHYAbsB/wE4AdgBuwH/
+        AU8B3QHEAf8BQwFbAVYB/wE3AjkB/wE+AUsBSQH/AU4BnQGSAf8BVAHPAboB/wFDAdkBvgH/ATkB2AG8
+        Af8BOAHYAbsB/wE4AdgBuwH/ATgB2AG8Af8BMwHQAbIB/wNWAbYQAANWAbYB3wGoAUkB/wHjAa4BSwH/
+        AeMBrQFKAf8B5AGwAVEB/wGnAZIBXQH/AzYB/wM2Af8BugGhAWYB/wG6AaEBZgH/AzYB/wM2Af8BpwGS
+        AV0B/wHkAbABUQH/AeMBrQFKAf8B4wGuAUsB/wHfAagBSQH/A1YBtggAAykBPwFZAmAB6wEYAasB3QH/
+        ARUBowHbAf8BFAGhAdoB/wEUAaEB2gH/ARYBogHaAf8BRQGyAdsB/wHhAe8B9g3/AdoB6QHwAf8BNwGx
+        Ad8B/wEUAaEB2gH/ARQBoQHaAf8BFAGhAdoB/wEUAaIB2gH/ARcBqQHdAf8BKwF0AZcB/AFFAkYBfgQA
+        AykBPwFZAmAB6wEiAb0BZgH/AR8BugFhAf8BNQHAAYcB/wHZAe0B4wH/AewB9gHxAf8BOAG4AYQB/wEe
+        AbkBXwH/AR4BuQFfAf8BHgG5AV8B/wEeAbkBXwH/AR8BugFgAf8BjwHYAbMB/wH1AfsB+AH/AfEB+gH2
+        Af8BggHTAaoB/wEjAbsBYwH/ASEBvAFlAf8BKwF4AWAB/AFFAUYBRQF+DAABXQJhAeIBPAHYAb4B/wE7
+        AdkBvwH/ATsB2QG/Af8BOwHZAb8B/wFNAd4BxgH/AT0BVgFRAf8DLwH/Ay8B/wMvAf8BNQFAAT4B/wFK
+        AZoBjwH/AU4BxwG0Af8BPwHZAb8B/wE7AdkBvwH/ATsB2QG/Af8BPAHYAb4B/wFdAmEB4hAAAmEBXQHi
+        AeQBtAFRAf8B5QG0AU8B/wHlAbQBTwH/AeYBtgFUAf8BpAGPAVcB/wMvAf8DLwH/AbgBnwFgAf8BuAGf
+        AWAB/wMvAf8DLwH/AaQBjwFXAf8B5gG2AVQB/wHlAbQBTwH/AeUBtAFPAf8B5AG0AVEB/wJhAV0B4ggA
+        Ay0BRgFMAWABawHzARYBpAHaAf8BEwGfAdgB/wESAZ4B2AH/ARIBngHYAf8BUAG7AeQB/wHbAe4B+AH/
+        Af0C/g3/Af4D/wHNAegB9gH/AUkBtwHiAf8BFAGfAdkB/wESAZ4B2AH/ARIBngHYAf8BFAGiAdoB/wFA
+        AagBrwH9A0oBiwQAAy0BRgFMAWABXwHzAR8BuQFgAf8BHAG3AVwB/wEzAbwBggH/AdYB6gHgAf8B6wH3
+        AfEB/wE2AbsBgwH/ARwBtwFbAf8BHAG3AVsB/wEcAbcBWwH/ARwBtwFbAf8BVgHLAZsB/wHtAfgB8wn/
+        AeYB9gHuAf8BTQHIAZYB/wEeAbkBXgH/AUABqAFPAf0DSgGLDAABWQJgAesBQQHdAcUB/wFCAd8BxwH/
+        AUEB3wHHAf8BQgHfAccB/wFQAeIBzAH/ATcBUgFNAf8DKQH/AykB/wMpAf8DKQH/ASwBMgExAf8BRwGY
+        AY0B/wFKAdwBxgH/AUIB3wHHAf8BQgHfAccB/wFBAd0BxQH/AVkCYAHrEAACYAFZAesB6QG9AVkB/wHr
+        AcABWQH/AesBwAFZAf8B6wHCAV0B/wGjAZABVAH/AykB/wMpAf8BuQGiAV4B/wG5AaIBXgH/AykB/wMp
+        Af8BowGQAVQB/wHrAcIBXQH/AesBwAFZAf8B6wHAAVkB/wHpAb0BWQH/AmABWQHrCAADKwFCAVQCYQHu
+        ATUBrAHeAf8BLAGmAdwB/wEuAacB3AH/AY0BxwHmAf8B3QHqAfEB/wHlAe4B8gH/AeYB7gHzAf8B/AL9
+        Bf8B9wH6AfsB/wHlAe4B8gH/AeMB7QHyAf8B3AHpAfEB/wFgAb0B4wH/ARcBnQHYAf8BEgGaAdcB/wES
+        AZsB1wH/ASsBcwGXAfwDSAGEBAADKwFCAVQCYQHuAT0BwAGIAf8BNQG9AYIB/wE6AbwBhAH/Ab0B3gHN
+        Af8B9wH7AfkB/wGJAdEBqgH/ASQBtwFdAf8BIAG1AVoB/wEfAbUBWQH/AR8BtQFaAf8BLQGtAV0B/wFa
+        AbQBkQH/Ae0B9QHxAf8B4QHvAecB/wFBAacBZQH/ASsBrgFcAf8BGwG0AVcB/wEsAXgBYgH8A0gBhAwA
+        AVwCYAHUAUIB3QHEAf8BRgHiAc0B/wFFAeIBzQH/AUUB4gHNAf8BUAHkAdAB/wExAU0BSAH/AyIB/wMi
+        Af8BKQE3ATUB/wE3AWMBXAH/AU0ByAG5Af8BTwHkAdAB/wFGAeIBzQH/AUUB4gHNAf8BRgHiAc0B/wFC
+        Ad0BxAH/AVwCYAHUEAACYAFcAdQB6gG/AVwB/wHuAcgBYAH/Ae4ByAFgAf8B7wHJAWIB/wGhAY4BTwH/
+        AyIB/wMiAf8BuAGhAVkB/wG4AaEBWQH/AyIB/wMiAf8BoQGOAU8B/wHvAckBYgH/Ae4ByAFgAf8B7gHI
+        AWAB/wHqAb8BXAH/AmABXAHUCAADIgEyAVoCXwHbAUEBrwHeAf8BPAGtAd4B/wE+AasB2gH/AVEBpwHK
+        Af8BUQGiAcIB/wFPAaEBwQH/AVMBpAHDAf8B1wHkAewF/wHEAdoB5gH/AUgBngHAAf8BRgGcAb8B/wFE
+        AZwBwAH/AT8BnwHIAf8BIQGdAdYB/wEaAZwB1wH/ARoBnAHXAf8BRwF6AYcB+QM7AWQEAAMiATIBWgJf
+        AdsBSAHCAY0B/wFDAcIBigH/AUEBvgGIAf8BlQHMAa4B/wH2AfkB9wH/AdwB8QHmAf8BWAHJAZoB/wEz
+        AbsBZgH/ATABugFjAf8BLQG5AWEB/wExAbgBYwH/AbsB4gHNAf8B/gH/Af4B/wGrAdMBvgH/ASMBrwFY
+        Af8BIgGyAVgB/wEiAbUBWgH/AUcBfQFqAfkDOwFkDAABUAJSAaQBPAHWAb0B/wFIAeMBzwH/AUcB4wHP
+        Af8BRwHjAc8B/wFOAeQB0QH/ASsBSQFEAf8BIAEmASUB/wEyAV4BVwH/AUcBvQGuAf8BTAHeAcsB/wFJ
+        AeMBzwH/AUcB4wHPAf8BRwHjAc8B/wFHAeMBzwH/AUgB4wHPAf8BPAHWAb0B/wFQAlIBpBAAAlIBUAGk
+        AeYBuQFZAf8B7wHMAWQB/wHvAcwBYgH/Ae8BzAFkAf8BnwGNAUoB/wMcAf8DHAH/AbYBoAFVAf8BtgGg
+        AVUB/wMdAf8DHQH/AZ8BjQFKAf8B7wHMAWQB/wHvAcwBYgH/Ae8BzAFkAf8B5gG5AVkB/wJSAVABpAgA
+        Aw4BEwNWAbYBYgG9AeMB/wFIAbAB3wH/AUQBrgHfAf8BQQGsAdwB/wE+AaoB2wH/ATwBqQHbAf8BOgGn
+        AdkB/wGfAcUB3QH/Af0C/gH/AYMBtwHWAf8BLwGiAdgB/wEtAaEB2AH/ASsBoAHXAf8BKAGfAdcB/wEm
+        AZ8B2AH/ASQBnwHYAf8BOQGpAdwB/wFMAWABawHzAxsBJgQAAw4BEwNWAbYBZgHLAaAB/wFPAcQBkAH/
+        AUsBwwGOAf8BTAG5AYoB/wHCAdsBzQH/Af0B/gH9Af8B7wH5AfMB/wGsAd8BwgH/AYYB0AGnAf8BmgHY
+        AbYB/wHWAe8B4gH/AfwB/QH8Af8B1wHnAd4B/wE/AbABZgH/AS4BuAFfAf8BLQG3AV8B/wFAAb4BhQH/
+        AUwCXwHzAxsBJgwAAzEBTwFFAWsBZwH1AVEB5QHSAf8BSAHkAdAB/wFIAeQB0AH/AUsB5QHRAf8BOQGb
+        AZAB/wFGAckBuAH/AUsB4QHNAf8BSQHkAdAB/wFIAeQB0AH/AUgB5AHQAf8BSAHkAdAB/wFIAeQB0AH/
+        AUgB5AHQAf8BUQHlAdIB/wFFAWsBZwH1AzEBTxAAAzEBTwFtAWYBWQH1AfEB0AGFAf8B8QHPAWUB/wHx
+        AdABZgH/AbMBnQFQAf8BSQFBAS0B/wFJAUEBLQH/AcUBrAFXAf8BxQGsAVcB/wFJAUEBLQH/AUkBQQEt
+        Af8BswGdAVAB/wHxAdABZgH/AfEBzwFlAf8B8QHQAYUB/wFtAWYBWQH1AzEBTwwAA0IBdAFfAYkBkwH7
+        AV8BugHjAf8BTwGyAeAB/wFMAbEB4AH/AUoBrwHfAf8BRwGuAd8B/wFEAawB3QH/AYEBuAHbAf8B5AHs
+        AfEB/wFDAaQB0AH/AToBpwHcAf8BNwGmAdsB/wE1AaUB2wH/ATIBowHaAf8BLwGiAdoB/wEyAaMB2gH/
+        AU8BsgHdAf8BVgJZAb4DAAEBCAADQgF0AV8BiQF5AfsBZAHMAZ8B/wFWAcYBlAH/AVIBwwGRAf8BWAG2
+        AY4B/wHCAdgBywH/AfkB+wH6Ef8B1wHmAd0B/wFbAbQBjwH/ATkBuAFkAf8BNwG6AWQB/wE6AbsBZgH/
+        AVIBvQGNAf8BVgFZAVYBvgMAAQEMAAMSARkBVgJYAbsBVAHjAc4B/wFOAeYB1AH/AUoB5gHSAf8BSgHm
+        AdIB/wFLAeYB0wH/AUoB5gHSAf8BSgHmAdIB/wFKAeYB0gH/AUoB5gHSAf8BSgHmAdIB/wFKAeYB0gH/
+        AUoB5gHSAf8BTgHmAdQB/wFUAeMBzgH/AVYCWAG7AxIBGRAAAxIBGQJYAVYBuwHvAc0BiQH/AfIB1AGD
+        Af8B8gHSAYAB/wHyAdMBgQH/AfIB0wGBAf8B8gHTAYEB/wHyAdMBgQH/AfIB0wGBAf8B8gHTAYEB/wHy
+        AdMBgQH/AfIB0wGBAf8B8gHSAYAB/wHyAdQBgwH/Ae8BzQGJAf8CWAFWAbsDEgEZDAADCgENAVoCYAHe
+        AZMBxwHnAf8BYwG7AeQB/wFYAbUB4gH/AVYBtAHhAf8BUwGzAeEB/wFQAbEB4AH/AVQBrgHZAf8BnAG+
+        AdQB/wFHAasB3QH/AUUBqwHeAf8BQgGqAd0B/wE/AagB3AH/AT0BpwHcAf8BPgGoAdwB/wFcAbcB4gH/
+        AV0BYgFrAfMDLgFHDAADCgENAVoCYAHeAZUBzwGuAf8BggHMAaAB/wFeAcgBmQH/AVoBxQGVAf8BVAG0
+        AYsB/wGEAbQBmAH/AbgB0gHDAf8ByQHcAdEB/wG8AdUBxgH/AZEBvAGjAf8BSgGqAYAB/wFFAboBhAH/
+        AUQBvQGFAf8BRQG+AYYB/wFgAcgBmgH/AVUBYAFfAfMDLgFHEAADAQECAy8BSgFbAmEB4QFfAecB1gH/
+        AVAB5wHWAf8BSwHmAdQB/wFLAeYB1AH/AUsB5gHUAf8BSwHmAdQB/wFLAeYB1AH/AUsB5gHUAf8BSwHm
+        AdQB/wFLAeYB1AH/AVAB5wHWAf8BXwHnAdYB/wFbAmEB4QMvAUoDAQECEAADAQECAy8BSgNhAeEB8wHW
+        AZIB/wH0AdcBhgH/AfMB1QGCAf8B8wHVAYIB/wHzAdUBggH/AfMB1QGCAf8B8wHVAYIB/wHzAdUBggH/
+        AfMB1QGCAf8B8wHVAYIB/wH0AdcBhgH/AfMB1gGSAf8DYQHhAy8BSgMBAQIQAAM2AVkDZAHnAaABzQHr
+        Af8BiAHAAeYB/wFhAbkB4wH/AV4BtwHiAf8BWwG1AeIB/wFXAbMB3wH/AVUBqQHRAf8BUwGxAeAB/wFQ
+        AbAB4AH/AU4BrwHfAf8BSwGtAd4B/wFPAa8B3wH/AYUBvgHlAf8BXAF4AX4B+AFJAkoBiQMKAQ4QAAM2
+        AVkDZAHnAaMB2AG4Af8BjAHQAagB/wFmAcsBngH/AWMBygGbAf8BXQHCAZQB/wFSAbMBiAH/AU0BrgGD
+        Af8BTQGwAYMB/wFQAbkBiQH/AVMBwwGPAf8BUQHCAY0B/wFVAcQBkAH/AYkB0AGlAf8BXAF4AWsB+AFJ
+        AUoBSQGJAwoBDhgAAzgBXAFeAmUB5QFmAekB2AH/AVgB6gHZAf8BTgHoAdYB/wFNAegB1gH/AU0B6AHW
+        Af8BTAHoAdYB/wFNAegB1gH/AU4B6AHWAf8BWAHqAdkB/wFmAekB2AH/AV4CZQHlAzgBXCAAAzgBXANl
+        AeUB8wHZAZkB/wH2AdoBjQH/AfUB2AGFAf8B9QHXAYUB/wH1AdgBhQH/AfUB1wGFAf8B9AHYAYUB/wH1
+        AdgBhQH/AfYB2gGNAf8B8wHZAZkB/wNlAeUDOAFcGAADBQEHAzoBYQNfAegBqAHRAesB/wGeAcsB6gH/
+        AYkBwAHmAf8BgwG8AeQB/wFlAboB5AH/AWIBuAHiAf8BYAG3AeIB/wFfAbYB4gH/AWABtwHiAf8BhQG+
+        AeUB/wGYAcgB6QH/AVwBeAF+AfgDTgGYAwsBDxQAAwUBBwM6AWEDXwHoAasB2QG9Af8BogHYAbcB/wGO
+        AdABpwH/AYcBzQGjAf8BgwHLAZ8B/wGAAcoBnQH/AWUByQGbAf8BZAHJAZoB/wFlAckBmwH/AYkBzgGk
+        Af8BmwHUAbEB/wFcAXkBbgH4A04BmAMLAQ8cAAMEAQYBNAI1AVUBWQJdAdcBXAF/AXwB+AGFAeoB2gH/
+        AWAB6gHaAf8BWwHqAdoB/wFbAeoB2gH/AWAB6gHaAf8BhQHqAdoB/wFcAX8BfAH4AVkCXQHXATQCNQFV
+        AwQBBiAAAwQBBgM1AVUDXQHXAYQBfAFuAfgB9QHbAZ8B/wH1AdwBlQH/AfYB3QGRAf8B9gHdAZEB/wH1
+        AdwBlQH/AfUB2wGfAf8BhAF8AW4B+ANdAdcDNQFVAwQBBiAAAzgBXANfAeABlAHGAeQB/wG1AdcB7wH/
+        Aa0B0gHtAf8BowHNAesB/wGfAcsB6wH/AZ8BygHqAf8BogHMAesB/wGrAdIB7QH/AZsBygHnAf8BXwFk
+        AWsB8wFJAkoBiQMLAQ8gAAM4AVwDXwHgAZQBxgGnAf8BtwHgAccB/wGvAd0BwQH/AaYB2gG6Af8BowHY
+        AbcB/wGiAdcBtgH/AaUB2QG5Af8BrgHcAb8B/wGcAc8BsAH/AV8BYgFfAfMBSQJKAYkDCwEPKAADFgEf
+        A0IBdQFWAlcBuAFbAl8B4wFmAYIBfQH3AWYBggF9AfcBWwJfAeMBVgJXAbgDQgF1AxYBHzAAAxYBHwNC
+        AXUDVwG4A18B4wGEAX0BbQH3AYQBfQFtAfcDXwHjA1cBuANCAXUDFgEfKAADBAEFAyEBMAFLAkwBkAFc
+        AmQB5wJiAWsB9gGCAY4BlAH7AXMBjgGgAfwBggGOAZQB+wFqAYQBiQH5AV8CYQHuA1YBtgMuAUcDCgEO
+        JAADBAEFAyEBMAFLAkwBkAFcAmQB5wNiAfYBggGPAYYB+wFzAZIBewH8AYIBjwGHAfsBagGEAXcB+QFc
+        AmEB7gNWAbYDLgFHAwoBDjAAAwIBAwMRARcDIQEwAycBOwMnATsDIQEwAxEBFwMCAQM4AAMCAQMDEQEX
+        AyEBMAMnATsDJwE7AyEBMAMRARcDAgEDOAADDAEQAy8BSgNCAXYBRwJIAYMDRAF7AzkBXwMWAR48AAMM
+        ARADLwFKA0IBdgFHAUgBRwGDA0QBewM5AV8DFgEe/wD/ADIAAUIBTQE+BwABPgMAASgDAAFYAwABQgMA
+        AQEBAAEBBQABGAEDFgAD/wEAAfABAAEcCQAB4AEAAQwJAAHAAQABDAkAAeABAAEMCQAB4AEAARwJAAHA
+        AQABDAkAAcABAAEMCQABwAEAAQwJAAHAAQABDAkAAcABAAEMCQABwAEAAQwJAAHAAQABDAkAAcABAAEM
+        CQABwAEAAQwJAAHAAQABDAkAAcABAAEMCQAB8AEAATwJAAHwAQABPAkAAfwBAAH8CQAB/gEBAfwJAAL/
+        AfwJAAL/AfwJAAHwAQABHwP/AQABAQP/AQAB4AEAAQ8C/wH+AgAB4AEAAQMBAAHAAQABDgIAARwCAAHg
+        AQABAwEAAeABAAEMAgABDgIAAeABAAEDAQAB4AEAARwCAAEOAQABAQHgAQABAwEAAcABAAEMAgABDAIA
+        AeABAAEDAQABwAEAAQwCAAEMAgAB4AEAAQMBAAHAAQABDAIAAQwCAAHgAQABAwEAAcABAAEMAgABDAIA
+        AcABAAEBAQABwAEwAQwCAAEMAgABwAEAAQEBAAHAAQABDAIAAQwCAAHAAQABAQEAAcABAAEMAgABDAIA
+        AcABAAEBAQABwAEAAQwCAAEMAgABwAEAAQEBAAHAAQABDAIAAQwCAAHAAQABAQEAAcABAAEMAgABDAIA
+        AcABAAEBAQABwAEAAQwCAAEMAgAB4AEAAQMBAAHwAQABPAIAAQ8BAAEDAeABAAEDAQAB8AEAAT4CAAEf
+        AQABAwHgAQABAwEAAfwBAAT/AcABDwHgAQABAwEAAf4BAQT/AeABHwHwAQABAwEAC/8BAAv/AQAB4AEA
+        AT8BgAEAAf8BAAEBAfwBAAEHAQAB4AEAAT8BgAEAAf4CAAH4AQABAwEAAeABAAE/AYABAAH8AgAB8AEA
+        AQMBAAHgAQABPwGAAQAB/gIAAfgBAAEDAQABwAEAAQ8CAAE+AQABAQH4AQABBwEAAYABAAEOAgABPAIA
+        AfABAAEDAQABgAEAAQ4CAAE8AgAB8AEAAQMDAAEEAgABHAIAAfABAAEDAwABBAIAARwCAAHwAQABAwMA
+        AQQCAAEcAgAB8AEAAQMDAAEEAgABHAIAAfABAAEDAwABBAIAARwCAAHwAQABAwMAAQQCAAEcAgAB8AEA
+        AQMDAAEEAgABHAIAAfABAAEDAQABgAEAAQYCAAEcAgAB8AEAAQMBAAGAAQABDgIAATwCAAHwAQABAwEA
+        AcABAAEPAgABPwEAAQMB/AEAAQ8BAAHAAQABHwIAAX8BAAEDAfwBAAEPAQAB8AEAAT8BwAEAAf8BwAEP
+        Af8BAAE/AQAB8AEAAX8BwAEBAf8B4AEfAf8BgAF/AQAB/gEDAf8B+AEPBv8BAAv/FwAL
+</value>
+  </data>
+  <data name="tabThemes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <data name="&gt;&gt;tabWebservices.Name" xml:space="preserve">
+    <value>tabWebservices</value>
+  </data>
+  <data name="&gt;&gt;cbxStartAppOnBoot.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblThemeFormat.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="tbAdditionalUsageInstrictions.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tabNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;pnlTabContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabUpdates.Name" xml:space="preserve">
+    <value>tabUpdates</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingScreenshots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMaintainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblChangelog.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbItemType.Name" xml:space="preserve">
+    <value>tbItemType</value>
+  </data>
+  <data name="&gt;&gt;pnlItemDetails.Parent" xml:space="preserve">
+    <value>pnlTabContent</value>
+  </data>
+  <data name="&gt;&gt;lvSelectItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMaintainer.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="lblAdditionalInstructions.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="llWebbrowserInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="tabCustomMenus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblThemeFormat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblInstalled.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tbAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;cbxThemeFormat.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="flowScreenshots.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;lblChangelog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHomepageStatic.Name" xml:space="preserve">
+    <value>lblHomepageStatic</value>
+  </data>
+  <data name="tbAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 176</value>
+  </data>
+  <data name="lblDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 61</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>686, 399</value>
+  </data>
+  <data name="tbChangelog.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="llWebbrowserInterface.Text" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;tabNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbxStartAppOnBoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 8</value>
+  </data>
+  <data name="tbForumTopic.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 179</value>
+  </data>
+  <data name="tabThemes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblThemeFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="tbChangelog.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbInstalledVersion.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="tabWebservices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <data name="tabSelectCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 130</value>
+  </data>
+  <data name="gbxUsageInstructions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 207</value>
+  </data>
+  <data name="&gt;&gt;tbAdditionalUsageInstrictions.Parent" xml:space="preserve">
+    <value>gbxUsageInstructions</value>
+  </data>
+  <data name="&gt;&gt;lblMaintainerStatic.Name" xml:space="preserve">
+    <value>lblMaintainerStatic</value>
+  </data>
+  <data name="tabThemes.Text" xml:space="preserve">
+    <value>Themes</value>
+  </data>
+  <data name="&gt;&gt;tabWebservices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRestart.Text" xml:space="preserve">
+    <value>&amp;Restart</value>
+  </data>
+  <data name="&gt;&gt;lblWebInterfaceUrl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flowScreenshots.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabUpdates.Text" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="lblForumTopic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 257</value>
+  </data>
+  <data name="pnlTabContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>515, 235</value>
+  </data>
+  <data name="&gt;&gt;tabWaitImages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabSelectCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingScreenshots.Name" xml:space="preserve">
+    <value>pbLoadingScreenshots</value>
+  </data>
+  <data name="cbxThemeFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 5</value>
+  </data>
+  <data name="lblHomepageStatic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lvSelectItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 4</value>
+  </data>
+  <data name="cbxStartAppOnBoot.Text" xml:space="preserve">
+    <value>Start on boot</value>
+  </data>
+  <data name="pnlActionButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 201</value>
+  </data>
+  <data name="pnlItemDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tbAdditionalUsageInstrictions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pbLoadingScreenshots.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblAdditionalInstructions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlItemDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, -1</value>
+  </data>
+  <data name="lblAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;tbForumTopic.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="&gt;&gt;lblAdditionalInstructions.Parent" xml:space="preserve">
+    <value>gbxUsageInstructions</value>
+  </data>
+  <data name="btnStartApplication.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="btnUninstall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 4</value>
+  </data>
+  <data name="btnUninstall.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tabCustomMenus.Text" xml:space="preserve">
+    <value>Custom Menus</value>
+  </data>
+  <data name="lblGayaInterfaceName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 64</value>
+  </data>
+  <data name="&gt;&gt;tabNew.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lvSelectItem.LabelWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbInstalledVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="gbxUsageInstructions.Text" xml:space="preserve">
+    <value>Usage instructions</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabWebservices.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabCustomMenus.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="&gt;&gt;pnlItemDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlItemDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 202</value>
+  </data>
+  <data name="btnStartApplication.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnUninstall.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblInstalled.Name" xml:space="preserve">
+    <value>lblInstalled</value>
+  </data>
+  <data name="tabApplications.Text" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="&gt;&gt;clmHeader.Name" xml:space="preserve">
+    <value>clmHeader</value>
+  </data>
+  <data name="&gt;&gt;tabApplications.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="&gt;&gt;tbChangelog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxUsageInstructions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabWebservices.Text" xml:space="preserve">
+    <value>Webservices</value>
+  </data>
+  <data name="&gt;&gt;tbWebserviceName.Name" xml:space="preserve">
+    <value>tbWebserviceName</value>
+  </data>
+  <data name="lblWebInterfaceUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 24</value>
+  </data>
+  <data name="lblWebInterfaceUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="&gt;&gt;tbWebserviceName.Parent" xml:space="preserve">
+    <value>gbxUsageInstructions</value>
+  </data>
+  <data name="&gt;&gt;tbItemType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbAdditionalUsageInstrictions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tabApplications.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblForumTopic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="tbItemType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;gbxUsageInstructions.Name" xml:space="preserve">
+    <value>gbxUsageInstructions</value>
+  </data>
+  <data name="tabCustomMenus.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbItemType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 32</value>
+  </data>
+  <data name="lblHomepageStatic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="&gt;&gt;tabWaitImages.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="lblSelectApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 65</value>
+  </data>
+  <data name="&gt;&gt;tabSelectCategory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblHomepageStatic.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblInstalled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 153</value>
+  </data>
+  <data name="btnUninstall.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblChangelog.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="tbInstalledVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="gbxUsageInstructions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbWebserviceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="&gt;&gt;tbItemType.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="btnRestart.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnRestart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSelectCategory.Name" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="&gt;&gt;lblSelectApplication.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flowScreenshots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, -1</value>
+  </data>
+  <data name="pnlActionButtons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnStartApplication.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSelectCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 22</value>
+  </data>
+  <data name="&gt;&gt;ilIcons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaintainerStatic.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblSelectApplication.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbxStartAppOnBoot.Name" xml:space="preserve">
+    <value>cbxStartAppOnBoot</value>
+  </data>
+  <data name="&gt;&gt;tbChangelog.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlItemDetails.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGayaInterfaceName.Text" xml:space="preserve">
+    <value>Webservice name</value>
+  </data>
+  <data name="&gt;&gt;pnlTabContent.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblMaintainerStatic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="&gt;&gt;lblGayaInterfaceName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUninstall.Text" xml:space="preserve">
+    <value>&amp;Uninstall</value>
+  </data>
+  <data name="&gt;&gt;llWebbrowserInterface.Parent" xml:space="preserve">
+    <value>gbxUsageInstructions</value>
+  </data>
+  <data name="llWebbrowserInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 38</value>
+  </data>
+  <data name="btnStartApplication.Text" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="btnRestart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblSelectApplication.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbWebserviceName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabWaitImages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;lblChangelog.Name" xml:space="preserve">
+    <value>lblChangelog</value>
+  </data>
+  <data name="&gt;&gt;lblMaintainerStatic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabNew.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabCustomMenus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlActionButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 35</value>
+  </data>
+  <data name="tabWaitImages.Text" xml:space="preserve">
+    <value>Wait Images</value>
+  </data>
+  <data name="&gt;&gt;btnRestart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblWebInterfaceUrl.Parent" xml:space="preserve">
+    <value>gbxUsageInstructions</value>
+  </data>
+  <data name="&gt;&gt;tabSelectCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblForumTopic.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="tabApplications.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;cbxStartAppOnBoot.Parent" xml:space="preserve">
+    <value>pnlActionButtons</value>
+  </data>
+  <data name="pbLoadingScreenshots.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;cbxThemeFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblThemeFormat.Name" xml:space="preserve">
+    <value>lblThemeFormat</value>
+  </data>
+  <data name="&gt;&gt;lblItemType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabSelectCategory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tabInstalled.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnlItemDetails.Name" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="&gt;&gt;llWebbrowserInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabWebservices.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblThemeFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 8</value>
+  </data>
+  <data name="lblDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 86</value>
+  </data>
+  <data name="&gt;&gt;pnlItemDetails.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbxStartAppOnBoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdditionalInstructions.Name" xml:space="preserve">
+    <value>lblAdditionalInstructions</value>
+  </data>
+  <data name="&gt;&gt;btnStartApplication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblForumTopic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlActionButtons.Name" xml:space="preserve">
+    <value>pnlActionButtons</value>
+  </data>
+  <data name="tbAdditionalUsageInstrictions.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxUsageInstructions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 389</value>
+  </data>
+  <data name="&gt;&gt;tabThemes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAdditionalInstructions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 111</value>
+  </data>
+  <data name="&gt;&gt;lblThemeFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCustomMenus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblChangelog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 280</value>
+  </data>
+  <data name="tbMaintainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 202</value>
+  </data>
+  <data name="lblInstalled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lvSelectItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 192</value>
+  </data>
+  <data name="&gt;&gt;tbAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowScreenshots.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabThemes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbHomepageURL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbAdditionalUsageInstrictions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 70</value>
+  </data>
+  <data name="tbInstalledVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 150</value>
+  </data>
+  <data name="pnlActionButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;pnlTabContent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMaintainerStatic.Text" xml:space="preserve">
+    <value>Maintainer</value>
+  </data>
+  <data name="lblInstalled.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblItemType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="tabNew.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="tabApplications.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbxThemeFormat.Items1" xml:space="preserve">
+    <value>Standard Definition</value>
+  </data>
+  <data name="flowScreenshots.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pnlActionButtons.Parent" xml:space="preserve">
+    <value>pnlTabContent</value>
+  </data>
+  <data name="lblChangelog.Text" xml:space="preserve">
+    <value>Changelog</value>
+  </data>
+  <data name="&gt;&gt;lblChangelog.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="cbxThemeFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbxThemeFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="&gt;&gt;lblHomepageStatic.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tabUpdates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblMaintainerStatic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 205</value>
+  </data>
+  <data name="tabWaitImages.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabWebservices.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="lblItemType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSelectApplication.Text" xml:space="preserve">
+    <value>Please select the desired item to install then click next to start the installation or upgrade.
+
+The Installed tab will offer additional actions for installed applications like uninstall.
+Please note that the Installed tab will only list install applications. 
+Use Extra -&gt; Uninstall to uninstall other items.</value>
+  </data>
+  <data name="&gt;&gt;tbAuthor.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="btnStartApplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 4</value>
+  </data>
+  <data name="&gt;&gt;lblAdditionalInstructions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbChangelog.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="cbxStartAppOnBoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="cbxStartAppOnBoot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabInstalled.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lvSelectItem.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;tbAuthor.Name" xml:space="preserve">
+    <value>tbAuthor</value>
+  </data>
+  <data name="&gt;&gt;lblGayaInterfaceName.Name" xml:space="preserve">
+    <value>lblGayaInterfaceName</value>
+  </data>
+  <data name="&gt;&gt;btnStartApplication.Name" xml:space="preserve">
+    <value>btnStartApplication</value>
+  </data>
+  <data name="&gt;&gt;lblSelectApplication.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;gbxUsageInstructions.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="lblGayaInterfaceName.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;tbForumTopic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flowScreenshots.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="lblItemType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 35</value>
+  </data>
+  <data name="tbHomepageURL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;btnRestart.Name" xml:space="preserve">
+    <value>btnRestart</value>
+  </data>
+  <data name="&gt;&gt;tbInstalledVersion.Name" xml:space="preserve">
+    <value>tbInstalledVersion</value>
+  </data>
+  <data name="flowScreenshots.WrapContents" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbAdditionalUsageInstrictions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbForumTopic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;ilIcons.Name" xml:space="preserve">
+    <value>ilIcons</value>
+  </data>
+  <data name="lblSelectApplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 50</value>
+  </data>
+  <data name="tbForumTopic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lvSelectItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name" xml:space="preserve">
+    <value>lblDescription</value>
+  </data>
+  <data name="tabUpdates.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tbAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;tbMaintainer.Name" xml:space="preserve">
+    <value>tbMaintainer</value>
+  </data>
+  <data name="&gt;&gt;btnUninstall.Parent" xml:space="preserve">
+    <value>pnlActionButtons</value>
+  </data>
+  <data name="tabNew.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblForumTopic.Text" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabThemes.Name" xml:space="preserve">
+    <value>tabThemes</value>
+  </data>
+  <data name="llWebbrowserInterface.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabWaitImages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <data name="&gt;&gt;tbInstalledVersion.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tabWebservices.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbHomepageURL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="&gt;&gt;lblAdditionalInstructions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnUninstall.Name" xml:space="preserve">
+    <value>btnUninstall</value>
+  </data>
+  <data name="&gt;&gt;tbChangelog.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="gbxUsageInstructions.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="tabCustomMenus.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingScreenshots.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnlTabContent.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblMaintainerStatic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAuthor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbForumTopic.Name" xml:space="preserve">
+    <value>tbForumTopic</value>
+  </data>
+  <data name="lblHomepageStatic.Text" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="llWebbrowserInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;pnlActionButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="&gt;&gt;lblItemType.Name" xml:space="preserve">
+    <value>lblItemType</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;lblInstalled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabNew.Parent" xml:space="preserve">
+    <value>tabSelectCategory</value>
+  </data>
+  <data name="btnStartApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;lblMaintainerStatic.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="lblItemType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="pbLoadingScreenshots.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="pbLoadingScreenshots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 375</value>
+  </data>
+  <data name="lblAdditionalInstructions.Text" xml:space="preserve">
+    <value>Additional instructions</value>
+  </data>
+  <data name="tabInstalled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 0</value>
+  </data>
+  <data name="&gt;&gt;tabNew.Name" xml:space="preserve">
+    <value>tabNew</value>
+  </data>
+  <data name="&gt;&gt;tabInstalled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHomepageURL.Name" xml:space="preserve">
+    <value>tbHomepageURL</value>
+  </data>
+  <data name="tabInstalled.Text" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="lblThemeFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblItemType.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="tabUpdates.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;lblThemeFormat.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbMaintainer.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="tbAuthor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tabInstalled.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblGayaInterfaceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="&gt;&gt;lblThemeFormat.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="&gt;&gt;pnlTabContent.Name" xml:space="preserve">
+    <value>pnlTabContent</value>
+  </data>
+  <data name="tbWebserviceName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblWebInterfaceUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbMaintainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tbMaintainer.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tbWebserviceName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 80</value>
+  </data>
+  <data name="tabThemes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowScreenshots.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblForumTopic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbForumTopic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="&gt;&gt;clmHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUninstall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;btnRestart.Parent" xml:space="preserve">
+    <value>pnlActionButtons</value>
+  </data>
+  <data name="&gt;&gt;gbxUsageInstructions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabUpdates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAdditionalInstructions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="tbDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clmHeader.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblHomepageStatic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 231</value>
+  </data>
+  <data name="lblMaintainerStatic.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblAuthor.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="&gt;&gt;lblHomepageStatic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="&gt;&gt;lblGayaInterfaceName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbHomepageURL.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="tbDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbHomepageURL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 228</value>
+  </data>
+  <data name="tbInstalledVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlTabContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 151</value>
+  </data>
+  <data name="&gt;&gt;tbInstalledVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="llWebbrowserInterface.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;flowScreenshots.Name" xml:space="preserve">
+    <value>flowScreenshots</value>
+  </data>
+  <data name="&gt;&gt;tabWaitImages.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabNew.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnRestart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 4</value>
+  </data>
+  <data name="tbForumTopic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 254</value>
+  </data>
+  <data name="tbDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="tbChangelog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 280</value>
+  </data>
+  <data name="&gt;&gt;lvSelectItem.Name" xml:space="preserve">
+    <value>lvSelectItem</value>
+  </data>
+  <data name="&gt;&gt;btnUninstall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbForumTopic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llWebbrowserInterface.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbItemType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tabThemes.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="btnRestart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tbAdditionalUsageInstrictions.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="pnlTabContent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblForumTopic.Parent" xml:space="preserve">
+    <value>pnlItemDetails</value>
+  </data>
+  <data name="lblInstalled.Text" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="tbDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 58</value>
+  </data>
+  <data name="lblItemType.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;tbAuthor.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tabUpdates.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ilIcons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

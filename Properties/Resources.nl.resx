@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DoneInstalling_Application" xml:space="preserve">
+    <value>Applicatie is geinstalleerd, hieronder kan gebruikers instructies
+verschijnen hoe de applicatie is te gebruiken.</value>
+  </data>
+  <data name="DoneInstalling_CustomMenu" xml:space="preserve">
+    <value>Aangepast menu is geinstalleerd. Druk op de “SOURCE” knop op
+uw afstandsbediening en selecteer HARD_DISK om de wijzigingen
+door te voeren.</value>
+  </data>
+  <data name="DoneInstalling_Theme" xml:space="preserve">
+    <value>Thema is geinstalleerd. Herstart the NMT om de wijzigingen
+door te voeren.</value>
+  </data>
+  <data name="DoneInstalling_WaitImageSet" xml:space="preserve">
+    <value>Wacht plaatjes zijn geinstalleerd. Bedankt voor het gebruike van
+NMT Community Installer.</value>
+  </data>
+  <data name="DoneInstalling_Webservice" xml:space="preserve">
+    <value>Webservice is geinstalleerd. Open het webservice scherm op uw
+NMT om de toegevoegde
+webservice te gebruiken.</value>
+  </data>
+  <data name="FileDialog_OpenAppZipCaption" xml:space="preserve">
+    <value>Open NMT Applicatie zip</value>
+  </data>
+  <data name="FileDialog_OpenAppZipFilter" xml:space="preserve">
+    <value>NMT Applicatie (*.zip)|*.zip</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotCaption" xml:space="preserve">
+    <value>Afbeelding opslaan</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotFilter" xml:space="preserve">
+    <value>JPEG bestanden (*.jpg)|*.jpg</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileCaption" xml:space="preserve">
+    <value>Selecteer firmware zip bestand</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileFilter" xml:space="preserve">
+    <value>Firmware bestand (*.zip)|*.zip</value>
+  </data>
+  <data name="InstallItem_ApplicationString" xml:space="preserve">
+    <value>Applicatie</value>
+  </data>
+  <data name="InstallItem_IndexString" xml:space="preserve">
+    <value>Aangepaste menu</value>
+  </data>
+  <data name="InstallItem_Package" xml:space="preserve">
+    <value>Selecteer een CSI installatie pakket (zip)</value>
+  </data>
+  <data name="InstallItem_ThemeString" xml:space="preserve">
+    <value>Thema</value>
+  </data>
+  <data name="InstallItem_WaitImageSetString" xml:space="preserve">
+    <value>Wacht plaatjes</value>
+  </data>
+  <data name="InstallItem_WebserviceString" xml:space="preserve">
+    <value>Webservice</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailable" xml:space="preserve">
+    <value>Nieuwe applicatie updates zijn beschikbaar, klik op Updates tab.</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailableCaption" xml:space="preserve">
+    <value>Nieuwe versie beschikbaar</value>
+  </data>
+  <data name="MessageBox_CleanCaption" xml:space="preserve">
+    <value>NMT Opschoning</value>
+  </data>
+  <data name="MessageBox_CleanupActionCaption" xml:space="preserve">
+    <value>Opschoning of herstart actie</value>
+  </data>
+  <data name="MessageBox_CleanupActionFailed" xml:space="preserve">
+    <value>Gekozen actie is mislukt, waarschijnlijk door verbindings problemen.</value>
+  </data>
+  <data name="MessageBox_CleanupActionSuccess" xml:space="preserve">
+    <value>Uw netwerk media tank zal herstarten.
+Volg instructies die op uw televisie verschijnen.</value>
+  </data>
+  <data name="MessageBox_CleanWarning" xml:space="preserve">
+    <value>!! WAARCHUWING !! WAARCHUWING !! U staat op het punt om uw NMT op te schonen.
+Alle standaard applicaties zullen opnieuw geinstalleerd worden en alle aanpassingen zullen ongedaan worden gemaakt.
+Na herstart van NMT moet u TYPICAL setup kiezen om uw media bestanden te bewaren. FRESH setup zal uw complete hardeschijf wissen.
+LET OP: DEZE ACTIE IS OP EIGEN RISICO!
+Weet u zeker dat u wilt doorgaan?</value>
+  </data>
+  <data name="MessageBox_CsiUpdateFailed" xml:space="preserve">
+    <value>Update is mislukt. Kies Help en Rapporteer een fout om deze fout te rapporteren.</value>
+  </data>
+  <data name="MessageBox_CsiUpdateNoneAvailable" xml:space="preserve">
+    <value>Geen updates beschikbaar</value>
+  </data>
+  <data name="MessageBox_CsiUpdatesCaption" xml:space="preserve">
+    <value>CSI Update</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteCaption" xml:space="preserve">
+    <value>Aangepaste menu</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteConfirm" xml:space="preserve">
+    <value>U staat op het punt een Aangepast menu te verwijderen
+Weet u het zeker?</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleted" xml:space="preserve">
+    <value>Aangepast menu is verwijderd. Druk op “SOURCE” knop op uw afstandsbediening and selecteerd “HARD_DISK”
+om de wijzigingen door te voeren.</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteFailed" xml:space="preserve">
+    <value>Aangepast menu verwijderen is mislukt. Probeer opnieuw.</value>
+  </data>
+  <data name="MessageBox_DeepCleanCaption" xml:space="preserve">
+    <value>NMT Diepe schoonmaak</value>
+  </data>
+  <data name="MessageBox_DeepCleanWarning" xml:space="preserve">
+    <value>!! WAARCHUWING !! WAARCHUWING !! U staat op het punt om uw NMT DIEP op te schonen.
+Alle standaard applicaties zullen opnieuw geinstalleerd worden en alle aanpassingen zullen ongedaan worden gemaakt. Tevens zullen alle niet-standaard mappen worden verplaatst naar de map CleanBackup
+Na herstart van NMT moet u TYPICAL setup kiezen om uw media bestanden te bewaren. FRESH setup zal uw complete hardeschijf wissen.
+LET OP: DEZE ACTIE IS OP EIGEN RISICO!
+Weet u zeker dat u wilt doorgaan?</value>
+  </data>
+  <data name="MessageBox_DownloadPackageCaption" xml:space="preserve">
+    <value>Applicatie ophalen</value>
+  </data>
+  <data name="MessageBox_DownloadPackageFailed" xml:space="preserve">
+    <value>Ophalen van programma informatie is mislukt. Controlleer uw internet verbinding en probeer opnieuw.</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestCaption" xml:space="preserve">
+    <value>FTP verbindings test</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestFailed" xml:space="preserve">
+    <value>Kan niet verbinden met de NMT's FTP server. Controleer of FTP server aanstaat en uw firewall instelling en probeer opnieuw.</value>
+  </data>
+  <data name="MessageBox_InstallActionFailed" xml:space="preserve">
+    <value>Kan niet verbinden met de NMT's FTP server. Controleer of FTP server aanstaat en uw firewall instelling en probeer opnieuw.</value>
+  </data>
+  <data name="MessageBox_InstallationActionCaption" xml:space="preserve">
+    <value>Installatie</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareCaption" xml:space="preserve">
+    <value>Installeer firmware</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareFailed" xml:space="preserve">
+    <value>Installatie van Firmware is mislukt, controlleer uw netwerk verbinging en probeer opnieuw.</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareWarning" xml:space="preserve">
+    <value>U staat op het punt om een andere firmware te installeren. Voordat u doorgaat moet u de gewenste firmware bestand downloaden van uw NMT's hardware fabrikant.
+Nadat u deze heeft gedownload kunt u doorgaan met deze actie. LET OP: INSTALLATIE VAN FIRMWARE IS OP EIGEN RISICO! Wilt u doorgaan?</value>
+  </data>
+  <data name="MessageBox_InstallFromFileCaption" xml:space="preserve">
+    <value>Installeer van bestand</value>
+  </data>
+  <data name="MessageBox_InstallFromFileInvalidZIP" xml:space="preserve">
+    <value>Dit is een onbekend pakket formaat, bestand wordt overgeslagen.</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdate" xml:space="preserve">
+    <value>Bewaarplaats bijwerken</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdateFileInvalid" xml:space="preserve">
+    <value>Foutief bewaarplaats informatie bestand aangetroffen ({0}), wordt overgeslagen.
+Rapporteer deze fout via Help -&gt; Rapporteer een fout mocht deze fout aanhouden.</value>
+  </data>
+  <data name="MessageBox_RepsitoryUpdateCantConnect" xml:space="preserve">
+    <value>Kan bewaarplaats {0} hoofdcomputer niet benaderen.
+Controleer uw internet verbinding. Server {0} kan offline zijn.</value>
+  </data>
+  <data name="MessageBox_RestartNMTCaption" xml:space="preserve">
+    <value>NMT herstarten</value>
+  </data>
+  <data name="MessageBox_RestartNMTConfirm" xml:space="preserve">
+    <value>U staat op het punt uw NMT opnieuw op te starten, weet u dit zeker?</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteCaption" xml:space="preserve">
+    <value>Thema verwijderen</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteConfirm" xml:space="preserve">
+    <value>U staat op het punt om uw theme te deinstalleren, weet u dit zeker?</value>
+  </data>
+  <data name="MessageBox_ThemeDeleted" xml:space="preserve">
+    <value>Thema is gedeinstalleerd, hetstart uw NMT om de wijzigingen door te voeren.</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteFailed" xml:space="preserve">
+    <value>Verwijderen van de thema is mislukt, probeer nogmaals.</value>
+  </data>
+  <data name="MessageBox_UninstallCaption" xml:space="preserve">
+    <value>Applicatie verwijderen</value>
+  </data>
+  <data name="MessageBox_UninstallConfirm" xml:space="preserve">
+    <value>Weet u zeker dat u {0} wilt deinstalleren?
+De applicatie en zijn instellingen wordt verwijderd.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteCaption" xml:space="preserve">
+    <value>Wacht plaatjes verwijderen</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteConfirm" xml:space="preserve">
+    <value>U staat op het punt om de wachtplaatjes te verwijderen. Weet u dit zeker?</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleted" xml:space="preserve">
+    <value>Wacht plaatjes zijn verwijderd. Hetstart the NMT om de wijzigingen door te voeren.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteFailed" xml:space="preserve">
+    <value>Verwijderen van de wachtplaatjes is mislukt, probeer opnieuw.</value>
+  </data>
+  <data name="PanelTitel_ServerSettings" xml:space="preserve">
+    <value>Server en Hardware instellingen</value>
+  </data>
+  <data name="PanelTitle_CSIUpgrade" xml:space="preserve">
+    <value>CSI update beschikbaar</value>
+  </data>
+  <data name="PanelTitle_Done" xml:space="preserve">
+    <value>Gebruikers instructies</value>
+  </data>
+  <data name="PanelTitle_InstallFromZip" xml:space="preserve">
+    <value>Installeer van bestand</value>
+  </data>
+  <data name="PanelTitle_InstallResult" xml:space="preserve">
+    <value>Installatie resultaat</value>
+  </data>
+  <data name="PanelTitle_SelectApplication" xml:space="preserve">
+    <value>Selecteer gewenste item</value>
+  </data>
+  <data name="PanelTitle_UploadApplication" xml:space="preserve">
+    <value>Verstuur en installeer</value>
+  </data>
+  <data name="PanelTitle_Webservice" xml:space="preserve">
+    <value>Nieuwe webservice toevoegen</value>
+  </data>
+  <data name="PanelTitle_Welcome" xml:space="preserve">
+    <value>Welkom bij NMT Community Software Installer</value>
+  </data>
+  <data name="Text_About" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="Text_Background" xml:space="preserve">
+    <value>Achtergrond</value>
+  </data>
+  <data name="Text_CheckingRepository" xml:space="preserve">
+    <value>Bewaarplaats bijwerken</value>
+  </data>
+  <data name="Text_DisablingBootStart" xml:space="preserve">
+    <value>Zet start tijdens opstaten uit</value>
+  </data>
+  <data name="Text_DownloadingFile" xml:space="preserve">
+    <value>Bestand wordt opgehaald</value>
+  </data>
+  <data name="Text_EnabelingBootStart" xml:space="preserve">
+    <value>Zet start tijdens opstarten aan</value>
+  </data>
+  <data name="Text_FetchingApplicationInformation" xml:space="preserve">
+    <value>Huidige applicatie informatie ophalen...</value>
+  </data>
+  <data name="Text_HighDefinition" xml:space="preserve">
+    <value>Hoge definitie</value>
+  </data>
+  <data name="Text_Installed" xml:space="preserve">
+    <value>Geinstalleerd</value>
+  </data>
+  <data name="Text_Installing" xml:space="preserve">
+    <value>Bezig met installeren</value>
+  </data>
+  <data name="Text_MainButtonsExit" xml:space="preserve">
+    <value>&amp;Sluiten</value>
+  </data>
+  <data name="Text_MainButtonsMore" xml:space="preserve">
+    <value>&amp;Meer...</value>
+  </data>
+  <data name="Text_MainButtonsNext" xml:space="preserve">
+    <value>&amp;Volgende</value>
+  </data>
+  <data name="Text_NotInstalled" xml:space="preserve">
+    <value>Niet geinstalleerd</value>
+  </data>
+  <data name="Text_Restarting" xml:space="preserve">
+    <value>Herstarten</value>
+  </data>
+  <data name="Text_StandardDefinition" xml:space="preserve">
+    <value>Standaard definitie</value>
+  </data>
+  <data name="Text_Start" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="Text_Started" xml:space="preserve">
+    <value>gestart</value>
+  </data>
+  <data name="Text_Starting" xml:space="preserve">
+    <value>Starten</value>
+  </data>
+  <data name="Text_StateUnknown" xml:space="preserve">
+    <value>Onbekende status</value>
+  </data>
+  <data name="Text_Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="Text_Stopped" xml:space="preserve">
+    <value>gestopt</value>
+  </data>
+  <data name="Text_Stopping" xml:space="preserve">
+    <value>Stoppen</value>
+  </data>
+  <data name="Text_Uninstalling" xml:space="preserve">
+    <value>Bezig met verwijderen</value>
+  </data>
+  <data name="Text_Version" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="URL_Donate" xml:space="preserve">
+    <value>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=34VMUCF2K3WYW</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="URL_Homepage" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="URL_ReportBug" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="Validate_InvalidWebserviceName" xml:space="preserve">
+    <value>Ongeldige naam. De naam mag alleen letters, cijfers en spaties bevatten.</value>
+  </data>
+  <data name="Validate_InvalidWebserviceURL" xml:space="preserve">
+    <value>Ongeldig web adres, controlleer en probeer opnieuw.</value>
+  </data>
+  <data name="MessageBox_HaltWarning" xml:space="preserve">
+    <value>U staat op het punt om uw NMT af te sluiten, weet u dit zeker?</value>
+  </data>
+  <data name="MessageBox_HaltWarningCaption" xml:space="preserve">
+    <value>NMT afsluiten</value>
+  </data>
+  <data name="shutdownNMTToolStripMenuItem.Text" xml:space="preserve">
+    <value>NMT afsluiten</value>
+  </data>
+  <data name="PanelTitle_Repositories" xml:space="preserve">
+    <value>Bewaarplaatsen bewerken</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalid" xml:space="preserve">
+    <value>Fouten gevonden in de bewaarplaats gegevens.
+Deze fouten dienen eerst opgelost te worden.
+</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalidCaption" xml:space="preserve">
+    <value>Bewaarplaats fouten</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancel" xml:space="preserve">
+    <value>U dient eerst op te slaan of te annuleren</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancelCaption" xml:space="preserve">
+    <value>Opslaan of annuleren</value>
+  </data>
+  <data name="Text_RepositoriesCheckCantConnectUrl" xml:space="preserve">
+    <value>Kan bewaarplaats {0} niet bereiken.</value>
+  </data>
+  <data name="Text_RepositoriesCheckInvalidURL" xml:space="preserve">
+    <value>Bewaarplaats {0} heeft een ongeldig URL of een URL die niet eindigd met XML of ZIP.</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoName" xml:space="preserve">
+    <value>Geen bewaarplaats naam opgegeven.</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoRepositories" xml:space="preserve">
+    <value>Geen bewaarplaatsen toegevoegd.
+Voeg minimaal een bewaarplaats toe.</value>
+  </data>
+  <data name="Text_RepositoriesCheckNotUniqueName" xml:space="preserve">
+    <value>Bewaarplaats naam {0} is niet uniek.</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartCaption" xml:space="preserve">
+    <value>Opnieuw starten aangeraden</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartConfirm" xml:space="preserve">
+    <value>Om de wijzigingen door te voeren moet CSI opnieuw opstart worden.
+Wilt u CSI nu opnieuw opstarten?</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionCaption" xml:space="preserve">
+    <value>Applicatie suggestie</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionHorizontalOffset" xml:space="preserve">
+    <value>-140</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionText" xml:space="preserve">
+    <value>Gelieve lighttpd applicatie installeren.
+Deze applicatie zorgt voor een snelheids verbetering van applicaties.
+
+Installeren van lighhtpd wordt aangeraden!  (klik hier om te sluiten)</value>
+  </data>
+</root>

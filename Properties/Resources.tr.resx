@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DoneInstalling_Application" xml:space="preserve">
+    <value>Bir uygulama yüklediniz, bu metinin altında uygulamayı kullanma
+hakkında bazı talimatlar olabilir.</value>
+  </data>
+  <data name="DoneInstalling_CustomMenu" xml:space="preserve">
+    <value>Özel bir menü yüklediniz, lütfen kumandadan "SOURCE" tuşuna
+basın ve ayarların etkili olması için HARD_DISK seçin.</value>
+  </data>
+  <data name="DoneInstalling_Theme" xml:space="preserve">
+    <value>Bir tema yüklediniz, ayarların etkili olması için lütfen NMT'yi yeniden
+başlatınız.</value>
+  </data>
+  <data name="DoneInstalling_WaitImageSet" xml:space="preserve">
+    <value>Yeni bir resim seti yüklediniz.
+NMT Community Software Installer kullandığınız için teşekkürler.</value>
+  </data>
+  <data name="DoneInstalling_Webservice" xml:space="preserve">
+    <value>Yeni bir Web Servisi yüklediniz.
+Ana Menüden Web Servislerini seçiniz.
+Eklenen yeni web servisiniz orada olmalıdır.</value>
+  </data>
+  <data name="FileDialog_OpenAppZipCaption" xml:space="preserve">
+    <value>NMT Uygulama zip'i açın</value>
+  </data>
+  <data name="FileDialog_OpenAppZipFilter" xml:space="preserve">
+    <value>NMT Uygulama (*.zip)|*.zip</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotCaption" xml:space="preserve">
+    <value>Ekran görüntüsünü kaydet</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotFilter" xml:space="preserve">
+    <value>JPEG dosyalar (*.jpg)|*.jpg</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileCaption" xml:space="preserve">
+    <value>Yazılım ZIP dosyası seçin</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileFilter" xml:space="preserve">
+    <value>Yazılım Dosyası (*.zip)|*.zip</value>
+  </data>
+  <data name="InstallItem_ApplicationString" xml:space="preserve">
+    <value>Uygulama</value>
+  </data>
+  <data name="InstallItem_IndexString" xml:space="preserve">
+    <value>Özel Menü</value>
+  </data>
+  <data name="InstallItem_Package" xml:space="preserve">
+    <value>Lütfen bir CSI yükleme paket dosyası seçin (zip)</value>
+  </data>
+  <data name="InstallItem_ThemeString" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="InstallItem_WaitImageSetString" xml:space="preserve">
+    <value>Bekleme Görüntü seti</value>
+  </data>
+  <data name="InstallItem_WebserviceString" xml:space="preserve">
+    <value>Web Servisi</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailable" xml:space="preserve">
+    <value>Yeni güncelleme sürümleri mevcut.
+Lütfen Güncelle sekmesini kontrol edin.</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailableCaption" xml:space="preserve">
+    <value>Yeni güncellemeler mevcut</value>
+  </data>
+  <data name="MessageBox_CleanCaption" xml:space="preserve">
+    <value>NMT Temizliği</value>
+  </data>
+  <data name="MessageBox_CleanupActionCaption" xml:space="preserve">
+    <value>Temizle veya eylemi tekrar başlat</value>
+  </data>
+  <data name="MessageBox_CleanupActionFailed" xml:space="preserve">
+    <value>Seçilen eylem başarısız, muhtemel bağlantı sorunu</value>
+  </data>
+  <data name="MessageBox_CleanupActionSuccess" xml:space="preserve">
+    <value>NMT cihazınız şimdi yeniden başlatılacak.
+NMT açıldıktan sonra talimatları izleyiniz.</value>
+  </data>
+  <data name="MessageBox_CleanWarning" xml:space="preserve">
+    <value>!!UYARI !! UYARI !! UYARI !!
+
+NMT nizi temizlemek üzeresiniz.
+Varsayılan uygulamalar yeniden yüklenecek, özelleştirmeler kaldırılacak.
+Açılış sonrasında  Tipik (Typical) veya Temiz /Fresh) kurulum yapmanız istenecek.
+Tipik kurulumda Media dosyalarınız korunurken, temiz kurulum ile tüm diskiniz silinecektir.
+Bu seçeneği kullanma SORUMLULUĞU KENDİNİZE AİTTİR!!
+
+Devam etmek istediğinize emin misiniz?</value>
+  </data>
+  <data name="MessageBox_CsiUpdateFailed" xml:space="preserve">
+    <value>Güncelleme başarısız, lütfen bu hatayı bildiriniz.</value>
+  </data>
+  <data name="MessageBox_CsiUpdateNoneAvailable" xml:space="preserve">
+    <value>Yeni güncelleme yok.</value>
+  </data>
+  <data name="MessageBox_CsiUpdatesCaption" xml:space="preserve">
+    <value>CSI güncelleme</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteCaption" xml:space="preserve">
+    <value>Özel menü sil</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteConfirm" xml:space="preserve">
+    <value>NMT cihazınızda Özel menüyü silmek üzeresiniz.
+
+Emin misiniz?</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleted" xml:space="preserve">
+    <value>Özel Menü silindi.
+
+lütfen kumandadan "SOURCE" tuşuna basın ve ayarların etkili olması için HARD_DISK seçin"</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteFailed" xml:space="preserve">
+    <value>Özel Menü klasörü kaldırılırken bir hata oluştu.
+Özel Menü silinmesi tamamlanamadı.
+Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="MessageBox_DeepCleanCaption" xml:space="preserve">
+    <value>NMT Derin Temizlik</value>
+  </data>
+  <data name="MessageBox_DeepCleanWarning" xml:space="preserve">
+    <value>!! UYARI !! UYARI !! UYARI !!
+
+NMT cihazınızda DERİN TEMİZLİK yapmak üzeresiniz.
+Varsayılan uygulamalar yeniden yüklenecek, tüm özelleştirmeler kaldırılacaktır.
+Açılış sonrasında  Tipik (Typical) veya Temiz /Fresh) kurulum yapmanız istenecek.
+Tipik kurulumda Media dosyalarınız korunurken, temiz kurulum ile tüm diskiniz silinecektir.
+DERİN TEMİZLİK SONRASINDA CİHAZINIZDA VARSAYILAN DIŞINDA TÜM KLASÖRLER VE AYARLAR KALDIRILACAKTIR.
+BUNLAR DIŞINDAKİ TÜM KLASÖR VE DOSYALAR KALDIRILACAK: Download, Music, Photo, Podcast, Video
+Varsayılan media klasörleri dışındaki tüm klasörler kaldırılacak! Bu klasörlerin yedeği CleanBackup isimli klasöre kaydedilecektir.
+Bu seçeneği kullanmak TAMAMEN KENDİ SORUMLULUĞUNUZDUR!
+
+Devam etmek istediğinize emin misiniz?</value>
+  </data>
+  <data name="MessageBox_DownloadPackageCaption" xml:space="preserve">
+    <value>Uygulama indir</value>
+  </data>
+  <data name="MessageBox_DownloadPackageFailed" xml:space="preserve">
+    <value>Kurulum dosyalarının indirilmesinde hata.
+İnternet bağlantınızı kontrol ediniz.
+Tekrar deneyin, sorun devam ediyorsa Yardım Menüsünü kullanın
+ve hatayı bildirin.
+</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestCaption" xml:space="preserve">
+    <value>FTP bağlantı testi</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestFailed" xml:space="preserve">
+    <value>NMT FTP sunucusuna bağlanılamıyor.
+FTP sunucusunun çalıştığına emin olun.
+Sunucu ayarlarınızı kontrol edip tekrar deneyin.</value>
+  </data>
+  <data name="MessageBox_HaltWarning" xml:space="preserve">
+    <value>NMT cihazınızı kapatmak üzeresiniz, emin misiniz?</value>
+  </data>
+  <data name="MessageBox_HaltWarningCaption" xml:space="preserve">
+    <value>NMT kapatılıyor</value>
+  </data>
+  <data name="MessageBox_InstallActionFailed" xml:space="preserve">
+    <value>Networked Media Tank bağlantı hatası.
+Ekstra menüsünde Sunucu/Donanım ayarlarını kontrol ediniz. Cihazda FTP sunucunun çalıştığından emin olunuz.
+Sorun devam ederse Yardım Menüsünden Hata Bildir kısmını kullanınız.</value>
+  </data>
+  <data name="MessageBox_InstallationActionCaption" xml:space="preserve">
+    <value>Kurulum</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareCaption" xml:space="preserve">
+    <value>Firmware kur</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareFailed" xml:space="preserve">
+    <value>Yeni firmware kurulumu başarısız, bağlantı sorunu olasılığı.</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareWarning" xml:space="preserve">
+    <value>NMT cihazınızın firmware yazılımını güncellemek üzeresiniz.
+Devam etmeden önce cihazınızın yazılım zip dosyasını
+NMT üreticinizin sitesinden indirmelisiniz.
+zip dosyasını indirdikten sonra güncelleme işlemine devam edebilirsiniz.
+YAZILIM GÜNCELLEME TAMAMEN KENDİ SORUMLULUĞUNUZDADIR!
+Yazılım güncellemeye devam etmeyi istiyor musunuz?</value>
+  </data>
+  <data name="MessageBox_InstallFromFileCaption" xml:space="preserve">
+    <value>Dosyadan kur</value>
+  </data>
+  <data name="MessageBox_InstallFromFileInvalidZIP" xml:space="preserve">
+    <value>Geçersiz ZIP dosya biçimi, iptal ediliyor</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalid" xml:space="preserve">
+    <value>Depo bilgisinde hatalar bulundu.
+Lütfen hatayı giderip yeniden deneyin.</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalidCaption" xml:space="preserve">
+    <value>Depo hatası</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartCaption" xml:space="preserve">
+    <value>Yeniden başlatma öneriliyor</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartConfirm" xml:space="preserve">
+    <value>CSI 'nin depo bilgisi güncellemesi için yeniden başlatılması gerekiyor.
+CSI şimdi yeniden başlatılsın mı?</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancel" xml:space="preserve">
+    <value>Lütfen önce değişiklikleri kaydedin veya iptal edin</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancelCaption" xml:space="preserve">
+    <value>Kaydet veya İptal</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdate" xml:space="preserve">
+    <value>Depo güncelleme</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdateFileInvalid" xml:space="preserve">
+    <value>Geçersiz depo dosyası ({0}) bulundu, atlanıyor. Lütfen Yardım menüsündeki Hata Bildir kısmından bildiriniz.</value>
+  </data>
+  <data name="MessageBox_RepsitoryUpdateCantConnect" xml:space="preserve">
+    <value>Depo Sunucusuna bağlanılamıyor {0}.
+İnternet bağlantınızı kontrol edin.</value>
+  </data>
+  <data name="MessageBox_RestartNMTCaption" xml:space="preserve">
+    <value>NMT'yi yeniden başlat</value>
+  </data>
+  <data name="MessageBox_RestartNMTConfirm" xml:space="preserve">
+    <value>NMT cihazınızı yeniden başlatmak üzeresiniz.
+Emin misiniz?</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteCaption" xml:space="preserve">
+    <value>Temayı sil</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteConfirm" xml:space="preserve">
+    <value>NMT cihazınız üstündeki Özel Temayı silmek üzeresiniz.
+Emin misiniz?</value>
+  </data>
+  <data name="MessageBox_ThemeDeleted" xml:space="preserve">
+    <value>Özel Tema silindi.
+Değişikliklerin etkin olması için NMT cihazını tekrar başlatınız.</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteFailed" xml:space="preserve">
+    <value>Tema klasörü kaldırılırken hata oluştu.
+Tema temizliği tamamlanamadı.
+Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="MessageBox_UninstallCaption" xml:space="preserve">
+    <value>Uygulamayı kaldır</value>
+  </data>
+  <data name="MessageBox_UninstallConfirm" xml:space="preserve">
+    <value>Kaldırmak istediğinizden emin misiniz: {0}?
+Tüm uygulama ve ayar dosyaları silinecek.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteCaption" xml:space="preserve">
+    <value>Bekleme Görüntü setini sil</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteConfirm" xml:space="preserve">
+    <value>NMT cihazınız üstündeki Bekleme Görüntü Setini silmek üzeresiniz.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleted" xml:space="preserve">
+    <value>Bekleme Görüntü seti silindi, değişikliklerin etkin olması için NMT cihazını tekrar başlatınız.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteFailed" xml:space="preserve">
+    <value>Bekleme Görüntü seti klasörü kaldırılırken sorun oluştu.
+Bekleme görüntü seti temizliği tamamlanamadı.
+Lütfen yeniden deneyin.</value>
+  </data>
+  <data name="PanelTitel_ServerSettings" xml:space="preserve">
+    <value>Sunucu ve Donanım Ayarları</value>
+  </data>
+  <data name="PanelTitle_ChangeLanguage" xml:space="preserve">
+    <value>Dil seç</value>
+  </data>
+  <data name="PanelTitle_CSIUpgrade" xml:space="preserve">
+    <value>Güncel CSI sürümü mevcut</value>
+  </data>
+  <data name="PanelTitle_Done" xml:space="preserve">
+    <value>Kullanım talimatları</value>
+  </data>
+  <data name="PanelTitle_InstallFromZip" xml:space="preserve">
+    <value>Dosyadan kur</value>
+  </data>
+  <data name="PanelTitle_InstallResult" xml:space="preserve">
+    <value>Kurulum sonucu</value>
+  </data>
+  <data name="PanelTitle_Repositories" xml:space="preserve">
+    <value>Depo kaynaklarını ayarla</value>
+  </data>
+  <data name="PanelTitle_SelectApplication" xml:space="preserve">
+    <value>İstenilen nesneyi seç</value>
+  </data>
+  <data name="PanelTitle_UploadApplication" xml:space="preserve">
+    <value>Yükle ve Kur</value>
+  </data>
+  <data name="PanelTitle_Webservice" xml:space="preserve">
+    <value>Özel Web servisi ekle</value>
+  </data>
+  <data name="PanelTitle_Welcome" xml:space="preserve">
+    <value>CSI NMT Topluluğu Yazılım Kurucusuna Hoşgeldiniz</value>
+  </data>
+  <data name="Text_About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="Text_Background" xml:space="preserve">
+    <value>Zemin</value>
+  </data>
+  <data name="Text_CheckingRepository" xml:space="preserve">
+    <value>Depo kontrol ediliyor</value>
+  </data>
+  <data name="Text_DisablingBootStart" xml:space="preserve">
+    <value>Başlangıçta çalıştırma etkin değil</value>
+  </data>
+  <data name="Text_DownloadingFile" xml:space="preserve">
+    <value>Dosya yükleniyor</value>
+  </data>
+  <data name="Text_EnabelingBootStart" xml:space="preserve">
+    <value>Başlangıçta çalıştırma etkin</value>
+  </data>
+  <data name="Text_FetchingApplicationInformation" xml:space="preserve">
+    <value>Mevcut uygulama bilgisi derleniyor</value>
+  </data>
+  <data name="Text_HighDefinition" xml:space="preserve">
+    <value>Yüksek Çözünürlük</value>
+  </data>
+  <data name="Text_Installed" xml:space="preserve">
+    <value>Kurulan</value>
+  </data>
+  <data name="Text_Installing" xml:space="preserve">
+    <value>Kuruluyor</value>
+  </data>
+  <data name="Text_MainButtonsExit" xml:space="preserve">
+    <value>&amp;Çıkış</value>
+  </data>
+  <data name="Text_MainButtonsMore" xml:space="preserve">
+    <value>&amp;Daha</value>
+  </data>
+  <data name="Text_MainButtonsNext" xml:space="preserve">
+    <value>&amp;Sonraki</value>
+  </data>
+  <data name="Text_NotInstalled" xml:space="preserve">
+    <value>Kurulmadı</value>
+  </data>
+  <data name="Text_RepositoriesCheckCantConnectUrl" xml:space="preserve">
+    <value>Depo sunucusuna bağlanılamadı: {0}</value>
+  </data>
+  <data name="Text_RepositoriesCheckInvalidURL" xml:space="preserve">
+    <value>Geçersiz URL biçimi veya zip veya xml ile bitmiyor: {0}</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoName" xml:space="preserve">
+    <value>Depo ismi yok, isim zorunludur</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoRepositories" xml:space="preserve">
+    <value>Depo kaynağı girilmemiş, en az bir depo gerekli</value>
+  </data>
+  <data name="Text_RepositoriesCheckNotUniqueName" xml:space="preserve">
+    <value>Depo ismi özel değil: {0}</value>
+  </data>
+  <data name="Text_Restarting" xml:space="preserve">
+    <value>Yeniden başlatılıyor</value>
+  </data>
+  <data name="Text_StandardDefinition" xml:space="preserve">
+    <value>Standart Çözünürlük</value>
+  </data>
+  <data name="Text_Start" xml:space="preserve">
+    <value>&amp;Başlat</value>
+  </data>
+  <data name="Text_Started" xml:space="preserve">
+    <value>başlatıldı</value>
+  </data>
+  <data name="Text_Starting" xml:space="preserve">
+    <value>Başlatılıyor</value>
+  </data>
+  <data name="Text_StateUnknown" xml:space="preserve">
+    <value>Durum bilinmiyor</value>
+  </data>
+  <data name="Text_Stop" xml:space="preserve">
+    <value>Du&amp;r</value>
+  </data>
+  <data name="Text_Stopped" xml:space="preserve">
+    <value>Durduruldu</value>
+  </data>
+  <data name="Text_Stopping" xml:space="preserve">
+    <value>Durduruluyor</value>
+  </data>
+  <data name="Text_Uninstalling" xml:space="preserve">
+    <value>Kaldırılıyor</value>
+  </data>
+  <data name="Text_Version" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionCaption" xml:space="preserve">
+    <value>Uygulama önerisi</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionHorizontalOffset" xml:space="preserve">
+    <value>-140</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionText" xml:space="preserve">
+    <value>Lütfen lighttpd uygulamasını kurunuz.
+Bu uygulama CSI ile yüklenen uygulamaların performansını arttıracaktır.
+lighttpd kurulumu önerilmektedir!  (Kapatmak için tıklayın)</value>
+  </data>
+  <data name="URL_Donate" xml:space="preserve">
+    <value>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=34VMUCF2K3WYW</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="URL_Homepage" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="URL_ReportBug" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="Validate_InvalidWebserviceName" xml:space="preserve">
+    <value>Geçersiz isim, sadece harf, sayı ve boşluk içermeli.</value>
+  </data>
+  <data name="Validate_InvalidWebserviceURL" xml:space="preserve">
+    <value>Geçersiz web adresi (URL), lütfen kontol edip deneyin.</value>
+  </data>
+</root>

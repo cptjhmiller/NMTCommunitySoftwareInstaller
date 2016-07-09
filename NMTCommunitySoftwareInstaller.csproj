@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CD763A8-C647-4CF8-B134-37A539B6BE5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.nmtinstaller.csi</RootNamespace>
+    <AssemblyName>NMT Community Software Installer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SignAssembly>true</SignAssembly>
+    <ApplicationIcon>LogoLarge.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>E:\Desktop\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://54.75.246.28/~csi/NMTCommunitySoftwareInstaller/</InstallUrl>
+    <UpdateUrl>http://54.75.246.28/~csi/csi-downloads/NMTCommunitySoftwareInstaller/</UpdateUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>2.7.5.7</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D9DF5A943726BE370597865DB7FBF29ABE03B5C1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>NMT Community Software Installer.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>NMT Community Software Installer.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInstaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInstaller.Designer.cs">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HardwareTypes\HardwareTypeEnum.cs" />
+    <Compile Include="InstalledApps\InstalledAppInfo.cs" />
+    <Compile Include="InstalledApps\InstalledAppsManager.cs" />
+    <Compile Include="Panels\BasePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\frmScreenshots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmScreenshots.Designer.cs">
+      <DependentUpon>frmScreenshots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\BasePanel.Designer.cs">
+      <DependentUpon>BasePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlAddWebservice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlAddWebservice.Designer.cs">
+      <DependentUpon>pnlAddWebservice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlAdvSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlAdvSettings.designer.cs">
+      <DependentUpon>pnlAdvSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlCSIUpgrade.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlCSIUpgrade.Designer.cs">
+      <DependentUpon>pnlCSIUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlInstallResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlInstallResult.Designer.cs">
+      <DependentUpon>pnlInstallResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlDone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlDone.Designer.cs">
+      <DependentUpon>pnlDone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlInstallFromZIP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlInstallFromZIP.Designer.cs">
+      <DependentUpon>pnlInstallFromZIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlRepositories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlRepositories.Designer.cs">
+      <DependentUpon>pnlRepositories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlSelectApplication.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlSelectApplication.Designer.cs">
+      <DependentUpon>pnlSelectApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlChangeLanguage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlChangeLanguage.Designer.cs">
+      <DependentUpon>pnlChangeLanguage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlUploadApplication.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlUploadApplication.Designer.cs">
+      <DependentUpon>pnlUploadApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmAbout.fr.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.nl.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.ru.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.tr.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstaller.fr.resx">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstaller.nl.resx">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstaller.ru.resx">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstaller.tr.resx">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmScreenshots.fr.resx">
+      <DependentUpon>frmScreenshots.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmScreenshots.nl.resx">
+      <DependentUpon>frmScreenshots.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmScreenshots.ru.resx">
+      <DependentUpon>frmScreenshots.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmScreenshots.tr.resx">
+      <DependentUpon>frmScreenshots.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\BasePanel.resx">
+      <DependentUpon>BasePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstaller.resx">
+      <DependentUpon>frmInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmScreenshots.resx">
+      <DependentUpon>frmScreenshots.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAddWebservice.fr.resx">
+      <DependentUpon>pnlAddWebservice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAddWebservice.nl.resx">
+      <DependentUpon>pnlAddWebservice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAddWebservice.resx">
+      <DependentUpon>pnlAddWebservice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAddWebservice.ru.resx">
+      <DependentUpon>pnlAddWebservice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAddWebservice.tr.resx">
+      <DependentUpon>pnlAddWebservice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAdvSettings.fr.resx">
+      <DependentUpon>pnlAdvSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAdvSettings.nl.resx">
+      <DependentUpon>pnlAdvSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAdvSettings.resx">
+      <DependentUpon>pnlAdvSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAdvSettings.ru.resx">
+      <DependentUpon>pnlAdvSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAdvSettings.tr.resx">
+      <DependentUpon>pnlAdvSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlChangeLanguage.fr.resx">
+      <DependentUpon>pnlChangeLanguage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlCSIUpgrade.fr.resx">
+      <DependentUpon>pnlCSIUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlCSIUpgrade.nl.resx">
+      <DependentUpon>pnlCSIUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlCSIUpgrade.resx">
+      <DependentUpon>pnlCSIUpgrade.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlCSIUpgrade.ru.resx">
+      <DependentUpon>pnlCSIUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlCSIUpgrade.tr.resx">
+      <DependentUpon>pnlCSIUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlDone.fr.resx">
+      <DependentUpon>pnlDone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlDone.nl.resx">
+      <DependentUpon>pnlDone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlDone.ru.resx">
+      <DependentUpon>pnlDone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlDone.tr.resx">
+      <DependentUpon>pnlDone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallFromZip.fr.resx">
+      <DependentUpon>pnlInstallFromZIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallFromZIP.nl.resx">
+      <DependentUpon>pnlInstallFromZIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallFromZIP.ru.resx">
+      <DependentUpon>pnlInstallFromZIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallFromZIP.tr.resx">
+      <DependentUpon>pnlInstallFromZIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallResult.fr.resx">
+      <DependentUpon>pnlInstallResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallResult.nl.resx">
+      <DependentUpon>pnlInstallResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallResult.resx">
+      <DependentUpon>pnlInstallResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlDone.resx">
+      <DependentUpon>pnlDone.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallFromZIP.resx">
+      <DependentUpon>pnlInstallFromZIP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallResult.ru.resx">
+      <DependentUpon>pnlInstallResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlInstallResult.tr.resx">
+      <DependentUpon>pnlInstallResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlRepositories.fr.resx">
+      <DependentUpon>pnlRepositories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlRepositories.nl.resx">
+      <DependentUpon>pnlRepositories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlRepositories.resx">
+      <DependentUpon>pnlRepositories.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlRepositories.ru.resx">
+      <DependentUpon>pnlRepositories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlRepositories.tr.resx">
+      <DependentUpon>pnlRepositories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSelectApplication.fr.resx">
+      <DependentUpon>pnlSelectApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSelectApplication.nl.resx">
+      <DependentUpon>pnlSelectApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSelectApplication.resx">
+      <DependentUpon>pnlSelectApplication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSelectApplication.ru.resx">
+      <DependentUpon>pnlSelectApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlChangeLanguage.resx">
+      <DependentUpon>pnlChangeLanguage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSelectApplication.tr.resx">
+      <DependentUpon>pnlSelectApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlServerSettings.fr.resx">
+      <DependentUpon>pnlServerSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlServerSettings.nl.resx">
+      <DependentUpon>pnlServerSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlServerSettings.ru.resx">
+      <DependentUpon>pnlServerSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlServerSettings.tr.resx">
+      <DependentUpon>pnlServerSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlUploadApplication.fr.resx">
+      <DependentUpon>pnlUploadApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlUploadApplication.nl.resx">
+      <DependentUpon>pnlUploadApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlUploadApplication.resx">
+      <DependentUpon>pnlUploadApplication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlUploadApplication.ru.resx">
+      <DependentUpon>pnlUploadApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlUploadApplication.tr.resx">
+      <DependentUpon>pnlUploadApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlWelcome.fr.resx">
+      <DependentUpon>pnlWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlWelcome.nl.resx">
+      <DependentUpon>pnlWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlWelcome.resx">
+      <DependentUpon>pnlWelcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlWelcome.ru.resx">
+      <DependentUpon>pnlWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlWelcome.tr.resx">
+      <DependentUpon>pnlWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlServerSettings.resx">
+      <DependentUpon>pnlServerSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru.resx" />
+    <EmbeddedResource Include="Properties\Resources.nl.resx" />
+    <EmbeddedResource Include="Properties\Resources.tr.resx" />
+    <EmbeddedResource Include="Properties\Resources.fr.resx" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\RepositoryAdvSettingsInfo.cs" />
+    <Compile Include="Repository\RepositoryLocations.cs" />
+    <Compile Include="Repository\RepositoryLocationInfo.cs" />
+    <Compile Include="Repository\RepositoryCustomMenuInfo.cs" />
+    <Compile Include="Repository\RepositoryWaitImagesInfo.cs" />
+    <Compile Include="Repository\RepositoryWebserviceInfo.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\FtpCommands.cs" />
+    <Compile Include="Panels\pnlServerSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlServerSettings.Designer.cs">
+      <DependentUpon>pnlServerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlWelcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlWelcome.Designer.cs">
+      <DependentUpon>pnlWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\RepositoryApplicationInfo.cs" />
+    <Compile Include="Repository\RepositoryFileInfo.cs" />
+    <Compile Include="Repository\RepositoryThemeInfo.cs" />
+    <Compile Include="Utilities\Functions.cs" />
+    <Compile Include="HardwareTypes\HardwareDetails.cs" />
+    <Compile Include="HardwareTypes\HardwareDetailsFactory.cs" />
+    <Compile Include="Utilities\HttpCommands.cs" />
+    <Compile Include="Utilities\Logger.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Utilities\SimpleUnZipper.cs" />
+    <Compile Include="Utilities\UploadInstaller.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NMT Community Software Installer.pfx" />
+    <None Include="Resources\PaypalDonate.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoScreenshots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LogoLarge.ico" />
+    <None Include="LogoLarge.png" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select Language.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Linux Start.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\NZBVortex.png" />
+    <None Include="Properties\DataSources\com.nmtinstaller.csi.RemoteFileInfo.MainRepository.datasource" />
+    <None Include="Resources\Select Language.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Linux Readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Repositories.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

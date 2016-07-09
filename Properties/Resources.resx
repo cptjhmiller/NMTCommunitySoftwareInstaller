@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Text_Stopping" xml:space="preserve">
+    <value>Stopping</value>
+  </data>
+  <data name="FileDialog_OpenAppZipCaption" xml:space="preserve">
+    <value>Open NMT Application zip</value>
+  </data>
+  <data name="Text_Background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleted" xml:space="preserve">
+    <value>Custom menu deleted.
+Please use "SOURCE" button on remote control and select HARD_DISK
+for the settings to take effect.</value>
+  </data>
+  <data name="DoneInstalling_CustomMenu" xml:space="preserve">
+    <value>You have installed a custom menu, please use the "SOURCE" button
+on your remote control and select HARD_DISK for the settings to
+take effect.</value>
+  </data>
+  <data name="MessageBox_InstallFromFileCaption" xml:space="preserve">
+    <value>Install from file</value>
+  </data>
+  <data name="Text_MainButtonsMore" xml:space="preserve">
+    <value>&amp;More...</value>
+  </data>
+  <data name="Text_Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotCaption" xml:space="preserve">
+    <value>Save screenshot</value>
+  </data>
+  <data name="MessageBox_InstallationActionCaption" xml:space="preserve">
+    <value>Installation</value>
+  </data>
+  <data name="PanelTitle_CSIUpgrade" xml:space="preserve">
+    <value>CSI update available</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdate" xml:space="preserve">
+    <value>Repository update</value>
+  </data>
+  <data name="Text_Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareCaption" xml:space="preserve">
+    <value>Install firmware</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PaypalDonate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaypalDonate.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageBox_CleanupActionCaption" xml:space="preserve">
+    <value>Clean or restart action</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteCaption" xml:space="preserve">
+    <value>Custom menu delete</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteCaption" xml:space="preserve">
+    <value>Theme delete</value>
+  </data>
+  <data name="MessageBox_DeepCleanWarning" xml:space="preserve">
+    <value>!! WARNING !! WARNING !! WARNING !!
+
+You are about to perform a DEEP CLEAN of your NMT.
+All default applications will be reinstalled, all customizations removed.
+After reboot you will be offered to do a TYPICAL or FRESH setup.
+A typical setup will keep your Media files while a fresh setup will do a complete wipe of your HDD.
+
+A DEEP CLEAN WILL REMOVE ANY NON-DEFAULT FOLDERS AND ALL SETTINGS FILES FROM YOU NMT.
+
+ALL FOLDERS AND FILES WILL BE REMOVED, EXCEPT THE FOLLOWING FOLDERS: Download, Music, Photo, Podcast, Video
+In effect all files and folders except the default media folders will be removed! A backup of these folders and files will be made in new folder called CleanBackup.
+
+Using this option IS COMPLETELY AT OWN RISK!
+Are you sure you want to continue?</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteFailed" xml:space="preserve">
+    <value>Something failed while removing Wait Image Set folder.
+Wait Image Set cleanup not completed.
+Please retry.</value>
+  </data>
+  <data name="URL_Donate" xml:space="preserve">
+    <value>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=34VMUCF2K3WYW</value>
+  </data>
+  <data name="PanelTitel_ServerSettings" xml:space="preserve">
+    <value>Server and Hardware settings</value>
+  </data>
+  <data name="Text_DownloadingFile" xml:space="preserve">
+    <value>Downloading File</value>
+  </data>
+  <data name="Text_StateUnknown" xml:space="preserve">
+    <value>State unknown</value>
+  </data>
+  <data name="PanelTitle_UploadApplication" xml:space="preserve">
+    <value>Upload and install</value>
+  </data>
+  <data name="DoneInstalling_Application" xml:space="preserve">
+    <value>You have installed an application, below this text may appear some
+instructions how to start using the application.</value>
+  </data>
+  <data name="Text_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailableCaption" xml:space="preserve">
+    <value>New updates available</value>
+  </data>
+  <data name="PanelTitle_InstallFromZip" xml:space="preserve">
+    <value>Install from file</value>
+  </data>
+  <data name="Text_Stopped" xml:space="preserve">
+    <value>stopped</value>
+  </data>
+  <data name="PanelTitle_Welcome" xml:space="preserve">
+    <value>Welcome to NMT Community Software Installer</value>
+  </data>
+  <data name="InstallItem_ThemeString" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Text_CheckingRepository" xml:space="preserve">
+    <value>Checking repository</value>
+  </data>
+  <data name="MessageBox_CleanupActionSuccess" xml:space="preserve">
+    <value>Your Networked Media Tank should be
+restarting shortly.
+Follow instructions on NMT after restart.</value>
+  </data>
+  <data name="MessageBox_CsiUpdateNoneAvailable" xml:space="preserve">
+    <value>No updates available</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdateFileInvalid" xml:space="preserve">
+    <value>An invalid repository file ({0}) detected, skipping. Please report this by using "Report a bug" in the Help menu.</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileCaption" xml:space="preserve">
+    <value>Select firmware ZIP file</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestCaption" xml:space="preserve">
+    <value>FTP connection test</value>
+  </data>
+  <data name="MessageBox_UninstallConfirm" xml:space="preserve">
+    <value>Are you sure you want to uninstall {0}?
+All application and configuration files will be deleted</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteConfirm" xml:space="preserve">
+    <value>You are about to delete the custom theme on
+the Network Media Tank.
+Are you sure?</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteFailed" xml:space="preserve">
+    <value>Something failed while cleaning Theme folder.
+Theme cleanup not completed.
+Please retry.</value>
+  </data>
+  <data name="Text_Installing" xml:space="preserve">
+    <value>Installing</value>
+  </data>
+  <data name="Validate_InvalidWebserviceName" xml:space="preserve">
+    <value>Invalid name, may only contain letters, numbers and spaces.</value>
+  </data>
+  <data name="Text_Restarting" xml:space="preserve">
+    <value>Restarting</value>
+  </data>
+  <data name="MessageBox_InstallFromFileInvalidZIP" xml:space="preserve">
+    <value>This is not a supported ZIP file format, aborting</value>
+  </data>
+  <data name="MessageBox_ThemeDeleted" xml:space="preserve">
+    <value>Custom theme deleted.
+Please restart Network Media Tank for the settings to take effect</value>
+  </data>
+  <data name="DoneInstalling_Webservice" xml:space="preserve">
+    <value>You have installed a new webservice.
+Open main menu on your NMTand choose Web services.
+Your newly added webservice should be located in there.</value>
+  </data>
+  <data name="Text_MainButtonsNext" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="FileDialog_OpenAppZipFilter" xml:space="preserve">
+    <value>NMT Application (*.zip)|*.zip</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteConfirm" xml:space="preserve">
+    <value>You are about to delete the custom wait image set on
+the Network Media Tank.
+
+Are you sure?</value>
+  </data>
+  <data name="Text_FetchingApplicationInformation" xml:space="preserve">
+    <value>Fetching current application information...</value>
+  </data>
+  <data name="InstallItem_IndexString" xml:space="preserve">
+    <value>Custom menu</value>
+  </data>
+  <data name="LogoLarge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoLarge.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstallItem_WebserviceString" xml:space="preserve">
+    <value>Webservice</value>
+  </data>
+  <data name="DoneInstalling_WaitImageSet" xml:space="preserve">
+    <value>You have installed a new wait image set.
+Thank you for using NMT Community Software Installer.</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileFilter" xml:space="preserve">
+    <value>Firmware file (*.zip)|*.zip</value>
+  </data>
+  <data name="PanelTitle_Webservice" xml:space="preserve">
+    <value>Add a custom Webservice</value>
+  </data>
+  <data name="Text_MainButtonsExit" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="Text_Starting" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="PanelTitle_InstallResult" xml:space="preserve">
+    <value>Install results</value>
+  </data>
+  <data name="URL_Homepage" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="Text_StandardDefinition" xml:space="preserve">
+    <value>Standard Definition</value>
+  </data>
+  <data name="MessageBox_InstallActionFailed" xml:space="preserve">
+    <value>Connection error while trying to connect to Networked Media Tank.
+Please check server settings in "Server/Hardware settings" in Extra menu. Also make sure you have the FTP server running.
+
+If problem remains use "Report a bug" or "Help" in Help menu.</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotFilter" xml:space="preserve">
+    <value>JPEG files (*.jpg)|*.jpg</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleted" xml:space="preserve">
+    <value>Wait Image Set is deleted, please restart the NMT for the settings to take effect.</value>
+  </data>
+  <data name="MessageBox_CsiUpdateFailed" xml:space="preserve">
+    <value>Update failed, please report this problem in Help or Report a bug</value>
+  </data>
+  <data name="NoScreenshots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NoScreenshots.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstallItem_Package" xml:space="preserve">
+    <value>Please select a CSI installer package file (zip)</value>
+  </data>
+  <data name="MessageBox_DeepCleanCaption" xml:space="preserve">
+    <value>NMT DEEP Cleanup</value>
+  </data>
+  <data name="InstallItem_ApplicationString" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="PanelTitle_Done" xml:space="preserve">
+    <value>Usage instructions</value>
+  </data>
+  <data name="MessageBox_RepsitoryUpdateCantConnect" xml:space="preserve">
+    <value>Can't connect to repository server {0}.
+Make sure your internet connection is up, perhaps {0}'s server is down.</value>
+  </data>
+  <data name="Text_Start" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareFailed" xml:space="preserve">
+    <value>Installing new firmware failed, most likely because of a connection problem.</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteFailed" xml:space="preserve">
+    <value>Something failed while removing custom menu folder.
+Custom menu cleanup not completed.
+Please retry.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteCaption" xml:space="preserve">
+    <value>Wait Images Set delete</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestFailed" xml:space="preserve">
+    <value>Can't connect Network Media Tank FTP server.
+Make sure FTP server is enabled.
+Check server settings and retry.</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteConfirm" xml:space="preserve">
+    <value>You are about to delete the custom menu on
+the Network Media Tank.
+
+Are you sure?</value>
+  </data>
+  <data name="URL_ReportBug" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="Text_Uninstalling" xml:space="preserve">
+    <value>Uninstalling</value>
+  </data>
+  <data name="MessageBox_RestartNMTCaption" xml:space="preserve">
+    <value>NMT Restart</value>
+  </data>
+  <data name="Text_Started" xml:space="preserve">
+    <value>started</value>
+  </data>
+  <data name="Text_DisablingBootStart" xml:space="preserve">
+    <value>Disabeling boot start for</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="Validate_InvalidWebserviceURL" xml:space="preserve">
+    <value>Invalid web address (URL), please verify and try again.</value>
+  </data>
+  <data name="InstallItem_WaitImageSetString" xml:space="preserve">
+    <value>Wait image set</value>
+  </data>
+  <data name="MessageBox_DownloadPackageFailed" xml:space="preserve">
+    <value>Error while trying to download installation files.
+Please check you internet connection.
+Try again, if problem remains please use Help menu, then use Help item
+and report problem there.</value>
+  </data>
+  <data name="DoneInstalling_Theme" xml:space="preserve">
+    <value>You have installed a theme, please restart the NMT
+for the settings to take effect.</value>
+  </data>
+  <data name="Text_EnabelingBootStart" xml:space="preserve">
+    <value>Enabeling boot start for</value>
+  </data>
+  <data name="MessageBox_UninstallCaption" xml:space="preserve">
+    <value>Application uninstall</value>
+  </data>
+  <data name="MessageBox_CleanCaption" xml:space="preserve">
+    <value>NMT Cleanup</value>
+  </data>
+  <data name="MessageBox_CsiUpdatesCaption" xml:space="preserve">
+    <value>CSI Update</value>
+  </data>
+  <data name="Text_HighDefinition" xml:space="preserve">
+    <value>High Definition</value>
+  </data>
+  <data name="MessageBox_CleanWarning" xml:space="preserve">
+    <value>!! WARNING !! WARNING !! WARNING !!
+
+You are about to cleanup your NMT.
+All default applications will be reinstalled, all customizations removed.
+After reboot you will be offered to do a TYPICAL or FRESH setup.
+A typical setup will keep your Media files while a fresh setup will do a complete wipe of your HDD.
+Using this option IS COMPLETELY AT OWN RISK!
+Are you sure you want to continue?</value>
+  </data>
+  <data name="Text_NotInstalled" xml:space="preserve">
+    <value>Not installed</value>
+  </data>
+  <data name="Text_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="MessageBox_CleanupActionFailed" xml:space="preserve">
+    <value>Choosen action failed, most likely because of a connection problem.</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailable" xml:space="preserve">
+    <value>New application updates are available.
+Please check Update tab.</value>
+  </data>
+  <data name="MessageBox_DownloadPackageCaption" xml:space="preserve">
+    <value>Download application</value>
+  </data>
+  <data name="MessageBox_RestartNMTConfirm" xml:space="preserve">
+    <value>You are about to restart your Networked Media Tank
+Are you sure?</value>
+  </data>
+  <data name="PanelTitle_SelectApplication" xml:space="preserve">
+    <value>Select the desired item</value>
+  </data>
+  <data name="PanelTitle_ChangeLanguage" xml:space="preserve">
+    <value>Select language</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareWarning" xml:space="preserve">
+    <value>You are about to reinstall or upgrading your NMT's firmware.
+Before you continue you need to download the firmware zip
+file from your NMT manufacturer's website.
+After you downloaded the zip file you can continue reinstalling or upgrading your firmware.
+UPGRADING FIRMWARE IS COMPLETELY AT OWN RISK!
+
+Are you sure you want to continue reinstalling or upgrading your firmware?</value>
+  </data>
+  <data name="MessageBox_HaltWarning" xml:space="preserve">
+    <value>You are about to shutdown the NMT, are you sure?</value>
+  </data>
+  <data name="MessageBox_HaltWarningCaption" xml:space="preserve">
+    <value>NMT Shutdown</value>
+  </data>
+  <data name="PanelTitle_Repositories" xml:space="preserve">
+    <value>Manage repositories</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalid" xml:space="preserve">
+    <value>Found errors in the repository information.
+Please fix problems and try again.
+</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalidCaption" xml:space="preserve">
+    <value>Repository errors</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancel" xml:space="preserve">
+    <value>Please save or cancel the changes first</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancelCaption" xml:space="preserve">
+    <value>Save or cancel</value>
+  </data>
+  <data name="Text_RepositoriesCheckCantConnectUrl" xml:space="preserve">
+    <value>Cannot connecto to repository server: {0}</value>
+  </data>
+  <data name="Text_RepositoriesCheckInvalidURL" xml:space="preserve">
+    <value>Invalid URL format or doesn't end with zip or xml for: {0}</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoName" xml:space="preserve">
+    <value>No repository name given, name is required</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoRepositories" xml:space="preserve">
+    <value>No repositories entered, need at least one repository.</value>
+  </data>
+  <data name="Text_RepositoriesCheckNotUniqueName" xml:space="preserve">
+    <value>Repository name not unique for: {0}</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartCaption" xml:space="preserve">
+    <value>Restart suggested</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartConfirm" xml:space="preserve">
+    <value>CSI needs to be restarted to update the repository information.
+Restart CSI now?</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionCaption" xml:space="preserve">
+    <value>Application suggestion</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionHorizontalOffset" xml:space="preserve">
+    <value>-140</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionText" xml:space="preserve">
+    <value>Please install the lighttpd application.
+This application will give a performance boost to applications installed via CSI.
+
+Installing lighttpd is adviced!  (click here to close)</value>
+  </data>
+  <data name="NZBVortex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NZBVortex.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="URL_NZBVortex" xml:space="preserve">
+    <value>http://www.nzbvortex.com</value>
+  </data>
+  <data name="DoneInstalling_CustomMenuA4" xml:space="preserve">
+    <value>You have installed a custom menu, please reboot for the settings to
+take effect.</value>
+  </data>
+  <data name="MessageBox_AdvancedSettingsCaption" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="MessageBox_AdvancedSettingsWarning" xml:space="preserve">
+    <value>!! WARNING !! WARNING !! WARNING !!
+
+Only change these options if you were told to do so.</value>
+  </data>
+  <data name="PanelTitle_Advsettings" xml:space="preserve">
+    <value>Advanced System Settings</value>
+  </data>
+  <data name="PanelTitle_ServerSettings" xml:space="preserve">
+    <value>Server and Hardware settings</value>
+  </data>
+</root>

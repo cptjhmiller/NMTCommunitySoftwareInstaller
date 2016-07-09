@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DoneInstalling_Application" xml:space="preserve">
+    <value>Вы установили программное приложение. Ниже, возможно,
+указана инструкция для запуска приложения. </value>
+  </data>
+  <data name="DoneInstalling_CustomMenu" xml:space="preserve">
+    <value>Вы установили пользовательское меню. Чтобы изменения
+вступилил в силу, нажмите клавишу "SOURCE" и выберите
+"HARD_DISK".</value>
+  </data>
+  <data name="DoneInstalling_Theme" xml:space="preserve">
+    <value>Вы установили тему. Чтобы изменения вступили
+в силу, перезапустите PopcornTV.</value>
+  </data>
+  <data name="DoneInstalling_WaitImageSet" xml:space="preserve">
+    <value>You have installed a new wait image set.
+Thank you for using NMT Community Software Installer.</value>
+  </data>
+  <data name="DoneInstalling_Webservice" xml:space="preserve">
+    <value>Вы установили веб-сервис.
+Откройте главное меню и выберите "Веб-сервисы", чтобы увидеть новый веб-сервис.</value>
+  </data>
+  <data name="FileDialog_OpenAppZipCaption" xml:space="preserve">
+    <value>Открыть zip-файл программного приложения</value>
+  </data>
+  <data name="FileDialog_OpenAppZipFilter" xml:space="preserve">
+    <value>Программное приложение (*.zip)|*.zip</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotCaption" xml:space="preserve">
+    <value>Сохранить снимок экрана</value>
+  </data>
+  <data name="FileDialog_SaveScreenshotFilter" xml:space="preserve">
+    <value>JPEG файлы (*.jpg)|*.jpg</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileCaption" xml:space="preserve">
+    <value>Выбрать прошивку ZIP-файл</value>
+  </data>
+  <data name="FileDialog_SelectFirmwareFileFilter" xml:space="preserve">
+    <value>Файл прошивки (*.zip)|*.zip</value>
+  </data>
+  <data name="InstallItem_ApplicationString" xml:space="preserve">
+    <value>Программное приложение</value>
+  </data>
+  <data name="InstallItem_IndexString" xml:space="preserve">
+    <value>Пользовательское меню</value>
+  </data>
+  <data name="InstallItem_Package" xml:space="preserve">
+    <value>Выберите пакет файлов CSI Installer (zip)</value>
+  </data>
+  <data name="InstallItem_ThemeString" xml:space="preserve">
+    <value>Темы</value>
+  </data>
+  <data name="InstallItem_WaitImageSetString" xml:space="preserve">
+    <value>Значок ожидания</value>
+  </data>
+  <data name="InstallItem_WebserviceString" xml:space="preserve">
+    <value>Веб-сервис</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailable" xml:space="preserve">
+    <value>Доступны новые обновления приложений.
+Проверьте Обновления.</value>
+  </data>
+  <data name="MessageBox_ApplicationUpdatesAvailableCaption" xml:space="preserve">
+    <value>Доступны новые обновления.</value>
+  </data>
+  <data name="MessageBox_CleanCaption" xml:space="preserve">
+    <value>Очистка PopcornTV</value>
+  </data>
+  <data name="MessageBox_CleanupActionCaption" xml:space="preserve">
+    <value>Очистка или перезагрузка.</value>
+  </data>
+  <data name="MessageBox_CleanupActionFailed" xml:space="preserve">
+    <value>Действие выполнено неудачно, возможно из-за проблемы соединения.</value>
+  </data>
+  <data name="MessageBox_CleanupActionSuccess" xml:space="preserve">
+    <value>PopcornTV скоро перезагрузится. Следуйте инструкции после перезагрузки.  </value>
+  </data>
+  <data name="MessageBox_CleanWarning" xml:space="preserve">
+    <value>!! Внимание !! Внимание !! Внимание !!
+
+PopcornTV будет очищен.
+Все стандартные приложения будут восстановлены, все дополнительные приложения будут удалены.
+После перезагрузки выберите режим установки приложений.
+«Нормальная установка» сохранит ваш медиаконтент. «Чистая установка» удалит все на внутреннем жестком диске.
+
+Используя данную функции, вы берете риск на себя!
+Вы уверены, что хотите продолжить?</value>
+  </data>
+  <data name="MessageBox_CsiUpdateFailed" xml:space="preserve">
+    <value>Обновление не удалось. Пожалуйста, сообщите о данной проблеме в «Помощь» или «Сообщить об ошибке».</value>
+  </data>
+  <data name="MessageBox_CsiUpdateNoneAvailable" xml:space="preserve">
+    <value>Нет обновления</value>
+  </data>
+  <data name="MessageBox_CsiUpdatesCaption" xml:space="preserve">
+    <value>Обновление CSI</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteCaption" xml:space="preserve">
+    <value>Пользовательское меню удалено</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteConfirm" xml:space="preserve">
+    <value>Пользовательское меню будет удалено
+с PopcornTV.
+
+Вы уверены?  </value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleted" xml:space="preserve">
+    <value>Пользовательское меню удалено.
+Используйте клавишу «SOURCE» на ПДУ и выберите HARD_DISK,
+чтобы изменения вступили в силу.</value>
+  </data>
+  <data name="MessageBox_CustomMenuDeleteFailed" xml:space="preserve">
+    <value>Что-то произошло не так при удалении папки пользовательского меню.
+Удаление пользовательского меню не завершено
+Попробуйте снова.</value>
+  </data>
+  <data name="MessageBox_DeepCleanCaption" xml:space="preserve">
+    <value>Полная очистка PopcornTV</value>
+  </data>
+  <data name="MessageBox_DeepCleanWarning" xml:space="preserve">
+    <value>!! Внимание !! Внимание !! Внимание !!
+PopcornTV будет полностью очищен.
+Все стандартные приложения будут восстановлены, все дополнительные приложения будут удалены.
+После перезагрузки выберите режим установки приложений.
+«Нормальная установка» сохранит ваш медиаконтент. «Чистая установка» удалит все на внутреннем жестком диске.
+
+ПОЛНАЯ ОЧИСКА УДАЛИТ ВСЕ НЕСТАНДАРТНЫЕ ПАПКИ И ВСЕ УСТАНОВОЧНЫЕ ФАЙЛЫ
+
+ВСЕ ПАПКИ И ФАЙЛЫ БУДУТ УДАЛЕНЫ, КРОМЕ: Download, Music, Photo, Podcast и Video.
+В общем, все файлы и папки будут удалены, кроме стандартных медиапапок! Копия этих папок и файлов будет сделана в папку «CleanBackup».
+
+ nИспользуя данную функции, вы берете риск на себя!
+Вы уверены, что хотите продолжить?</value>
+  </data>
+  <data name="MessageBox_DownloadPackageCaption" xml:space="preserve">
+    <value>Закачка приложения.</value>
+  </data>
+  <data name="MessageBox_DownloadPackageFailed" xml:space="preserve">
+    <value>Ошибка при загрузке инсталляционного файла.
+Проверьте соединение с Интернет.
+Попробуйте снова. Если ошибка остается, используйте меню «Помощь», далее сообщите об ошибке в иконку «Help».</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestCaption" xml:space="preserve">
+    <value>Тест соединения FTP</value>
+  </data>
+  <data name="MessageBox_FtpConnectionTestFailed" xml:space="preserve">
+    <value>Невозможно соединение c FTP-сервером PopcornTV
+Убедитесь, что FTP-сервер включен.
+Проверте настойки сервера и попробуйте снова. </value>
+  </data>
+  <data name="MessageBox_InstallActionFailed" xml:space="preserve">
+    <value>Ошибка при соединении с PopcornTV.
+Проверьте серверные настройки в "Сервер/Оборудование", в меню Экстра. Также убедитесь, что FTP-сервер включен.
+
+Если ошибка остается, сообщите в «Сообщить об ошибке» или «Помощь».</value>
+  </data>
+  <data name="MessageBox_InstallationActionCaption" xml:space="preserve">
+    <value>Инсталляция</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareCaption" xml:space="preserve">
+    <value>Установить прошивку</value>
+  </data>
+  <data name="MessageBox_InstallFirmwareFailed" xml:space="preserve">
+    <value>Установка новой прошивки не удалась, возможно из-за проблемы соединения. </value>
+  </data>
+  <data name="MessageBox_InstallFirmwareWarning" xml:space="preserve">
+    <value>Сейчас произойдет переустановка или обновление приложения PopcornTV.
+До того как вы продолжите, нужно загрузить zip-файл прошивки с сайта www.popcorntv.ru.
+После загрузки zip-файл, вы сможете подложить установку прошивки.
+ОТВЕТСТВЕННОСТЬ ОБНОВЛЕНИЯ ПРОШИВКИ ПОЛНОСТЬЮ ЛОЖИТСЯ НА ВАС!
+Вы уверены, что хотите продолжить? </value>
+  </data>
+  <data name="MessageBox_InstallFromFileCaption" xml:space="preserve">
+    <value>Установить из файла</value>
+  </data>
+  <data name="MessageBox_InstallFromFileInvalidZIP" xml:space="preserve">
+    <value>Этот zip-файл не поддерживается. Завершение.</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdate" xml:space="preserve">
+    <value>Обновление репозитория.</value>
+  </data>
+  <data name="MessageBox_RepositoryUpdateFileInvalid" xml:space="preserve">
+    <value>Обнаружен неправильный репозиторный файл ({0}), пропускается. Сообщите об этом через «Сообщить о ошибке», в меню «Справка».</value>
+  </data>
+  <data name="MessageBox_RepsitoryUpdateCantConnect" xml:space="preserve">
+    <value>Невозможно подсоединиться к репозиторию {0}.
+Убедитесь, что ваш Интернет работает. </value>
+  </data>
+  <data name="MessageBox_RestartNMTCaption" xml:space="preserve">
+    <value>Перезагрузка PopcornTV</value>
+  </data>
+  <data name="MessageBox_RestartNMTConfirm" xml:space="preserve">
+    <value>PopcornTV будет перезагружен. Вы уверены?</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteCaption" xml:space="preserve">
+    <value>Тема удалена.</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteConfirm" xml:space="preserve">
+    <value>Тема будет удалена.
+
+Вы уверены? </value>
+  </data>
+  <data name="MessageBox_ThemeDeleted" xml:space="preserve">
+    <value>Тема удалена.
+Перезагрузите PopcornTV, чтобы изменения вступили в силу.</value>
+  </data>
+  <data name="MessageBox_ThemeDeleteFailed" xml:space="preserve">
+    <value>Что-то произошло не так при удалении папки Темы.
+Удаление темы не завершено.
+Попробуйте снова.</value>
+  </data>
+  <data name="MessageBox_UninstallCaption" xml:space="preserve">
+    <value>Удаление приложения</value>
+  </data>
+  <data name="MessageBox_UninstallConfirm" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить {0}?
+Все приложения и  файлы конфигурации будут удалены.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteCaption" xml:space="preserve">
+    <value>Значок ожидания удален</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteConfirm" xml:space="preserve">
+    <value>Значок ожидания будет удален с PopcornTV
+Вы уверены?</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleted" xml:space="preserve">
+    <value>Значок ожидания удален. Перезагрузите PopcornTV, чтобы изменения вступили в силу.</value>
+  </data>
+  <data name="MessageBox_WaitImageDeleteFailed" xml:space="preserve">
+    <value>Что-то произошло не так при удалении папки значка ожидания.
+Удаление значка ожидания не завершено.
+Попробуйте снова.</value>
+  </data>
+  <data name="PanelTitel_ServerSettings" xml:space="preserve">
+    <value>Настройки Сервера и Оборудования</value>
+  </data>
+  <data name="PanelTitle_CSIUpgrade" xml:space="preserve">
+    <value>Обновление CSI доступно</value>
+  </data>
+  <data name="PanelTitle_Done" xml:space="preserve">
+    <value>Инструкция:</value>
+  </data>
+  <data name="PanelTitle_InstallFromZip" xml:space="preserve">
+    <value>Установить из файла</value>
+  </data>
+  <data name="PanelTitle_InstallResult" xml:space="preserve">
+    <value>Результат установки</value>
+  </data>
+  <data name="PanelTitle_SelectApplication" xml:space="preserve">
+    <value>Выберите интересующий пункт.</value>
+  </data>
+  <data name="PanelTitle_UploadApplication" xml:space="preserve">
+    <value>Закачка и инсталляция</value>
+  </data>
+  <data name="PanelTitle_Webservice" xml:space="preserve">
+    <value>Добавить веб=сервис</value>
+  </data>
+  <data name="PanelTitle_Welcome" xml:space="preserve">
+    <value>Добро пожаловать в NMT CSI</value>
+  </data>
+  <data name="Text_About" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="Text_Background" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="Text_CheckingRepository" xml:space="preserve">
+    <value>Проверка репозитория</value>
+  </data>
+  <data name="Text_DisablingBootStart" xml:space="preserve">
+    <value>Отключение загрузки на </value>
+  </data>
+  <data name="Text_DownloadingFile" xml:space="preserve">
+    <value>Загрузка файла</value>
+  </data>
+  <data name="Text_EnabelingBootStart" xml:space="preserve">
+    <value>Включение загрузки на</value>
+  </data>
+  <data name="Text_FetchingApplicationInformation" xml:space="preserve">
+    <value>Извлечение информации приложения</value>
+  </data>
+  <data name="Text_HighDefinition" xml:space="preserve">
+    <value>Высокое разрешение</value>
+  </data>
+  <data name="Text_Installed" xml:space="preserve">
+    <value>Установлен</value>
+  </data>
+  <data name="Text_Installing" xml:space="preserve">
+    <value>Устанавливается </value>
+  </data>
+  <data name="Text_MainButtonsExit" xml:space="preserve">
+    <value>&amp;Выход</value>
+  </data>
+  <data name="Text_MainButtonsMore" xml:space="preserve">
+    <value>&amp;Еще…</value>
+  </data>
+  <data name="Text_MainButtonsNext" xml:space="preserve">
+    <value>&amp;Далее</value>
+  </data>
+  <data name="Text_NotInstalled" xml:space="preserve">
+    <value>Неустановлен</value>
+  </data>
+  <data name="Text_Restarting" xml:space="preserve">
+    <value>Перезагружается</value>
+  </data>
+  <data name="Text_StandardDefinition" xml:space="preserve">
+    <value>Стандартное разрешение</value>
+  </data>
+  <data name="Text_Start" xml:space="preserve">
+    <value>&amp;Начать </value>
+  </data>
+  <data name="Text_Started" xml:space="preserve">
+    <value>работает</value>
+  </data>
+  <data name="Text_Starting" xml:space="preserve">
+    <value>начинается</value>
+  </data>
+  <data name="Text_StateUnknown" xml:space="preserve">
+    <value>Состояние неизвестно </value>
+  </data>
+  <data name="Text_Stop" xml:space="preserve">
+    <value>&amp;Стоп</value>
+  </data>
+  <data name="Text_Stopped" xml:space="preserve">
+    <value>Остановлен</value>
+  </data>
+  <data name="Text_Stopping" xml:space="preserve">
+    <value>Останавливается</value>
+  </data>
+  <data name="Text_Uninstalling" xml:space="preserve">
+    <value>Удаляется</value>
+  </data>
+  <data name="Text_Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="URL_Donate" xml:space="preserve">
+    <value>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=34VMUCF2K3WYW</value>
+  </data>
+  <data name="URL_Help" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="URL_Homepage" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="URL_ReportBug" xml:space="preserve">
+    <value>http://www.networkedmediatank.com/showthread.php?tid=64695</value>
+  </data>
+  <data name="Validate_InvalidWebserviceName" xml:space="preserve">
+    <value>Неправильное имя. Может только содержать буквы, числа и пробелы.</value>
+  </data>
+  <data name="Validate_InvalidWebserviceURL" xml:space="preserve">
+    <value>Неправильный веб-адрес (URL), проверьте и попробуйте снова.</value>
+  </data>
+  <data name="PanelTitle_ChangeLanguage" xml:space="preserve">
+    <value>Выбор языка</value>
+  </data>
+  <data name="MessageBox_HaltWarning" xml:space="preserve">
+    <value>Вы собираетесь остановить NMT. Вы уверены?</value>
+  </data>
+  <data name="MessageBox_HaltWarningCaption" xml:space="preserve">
+    <value>NMT остановки</value>
+  </data>
+  <data name="PanelTitle_Repositories" xml:space="preserve">
+    <value>Управление Репозиторий</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalid" xml:space="preserve">
+    <value>Найденные ошибки в хранилище информации. 
+Пожалуйста, исправьте проблемы и попробуйте еще раз.</value>
+  </data>
+  <data name="MessageBox_RepositoryInfoInvalidCaption" xml:space="preserve">
+    <value>Репозиторий ошибками</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancel" xml:space="preserve">
+    <value>Пожалуйста, сохранить или отменить изменения, первой</value>
+  </data>
+  <data name="MessageBox_RepositorySaveCancelCaption" xml:space="preserve">
+    <value>Сохранить или отменить</value>
+  </data>
+  <data name="Text_RepositoriesCheckCantConnectUrl" xml:space="preserve">
+    <value>Не connecto в хранилище сервера: {0}</value>
+  </data>
+  <data name="Text_RepositoriesCheckInvalidURL" xml:space="preserve">
+    <value>Неправильный формат URL или не заканчивается с ZIP или XML для: {0}</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoName" xml:space="preserve">
+    <value>Нет хранилищу имя, фамилия требуется</value>
+  </data>
+  <data name="Text_RepositoriesCheckNoRepositories" xml:space="preserve">
+    <value>Не вступил хранилищ, необходимо, по крайней мере одно хранилище.</value>
+  </data>
+  <data name="Text_RepositoriesCheckNotUniqueName" xml:space="preserve">
+    <value>Repository name not unique for: {0}</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartCaption" xml:space="preserve">
+    <value>Перезагрузите предложил</value>
+  </data>
+  <data name="MessageBox_RepositoryRestartConfirm" xml:space="preserve">
+    <value>CSI должен быть перезапущен для обновления хранилища информации. 
+Перезагрузите МОХС сейчас?</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionCaption" xml:space="preserve">
+    <value>Применение приложения</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionHorizontalOffset" xml:space="preserve">
+    <value>-155</value>
+  </data>
+  <data name="Tooltip_ApplicationSuggestionText" xml:space="preserve">
+    <value>Пожалуйста, установите приложение Lighttpd.
+Установка данного приложения позволит увеличить производительность
+программ, установленных с помощью CSI .
+
+Рекомендуем Lighttpd! (закрыть)</value>
+  </data>
+</root>
